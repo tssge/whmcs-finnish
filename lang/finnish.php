@@ -32,10 +32,10 @@ $_LANG['affiliateshostingpackage'] = "Webhotellipaketti";
 $_LANG['affiliatesintrotext'] = "Activate your affiliate account today to:";
 $_LANG['affiliateslinktous'] = "Link to Us";
 $_LANG['affiliatesnosignups'] = "You have currently not received any signups";
-$_LANG['affiliatesrealtime'] = "These statistics are in real time and update instantly";
+$_LANG['affiliatesrealtime'] = "Tiedot päivittyy realiajassa";
 $_LANG['affiliatesreferallink'] = "Sinun oma linkki";
-$_LANG['affiliatesreferals'] = "Your referrals";
-$_LANG['affiliatesregdate'] = "Registration Date";
+$_LANG['affiliatesreferals'] = "Viittaukset";
+$_LANG['affiliatesregdate'] = "Rekisteröintipäivä";
 $_LANG['affiliatesrequestwithdrawal'] = "Tilitä saldo tilillesi";
 $_LANG['affiliatessignupdate'] = "Rekisteröintipäivä";
 $_LANG['affiliatesstatus'] = "Tila";
@@ -1256,7 +1256,7 @@ $_LANG['pwstrengthstrong'] = "Vahva";
 
 $_LANG['managing'] = "";
 $_LANG['information'] = "Tiedot";
-$_LANG['withselected'] = "With Selected";
+$_LANG['withselected'] = "Valitut";
 $_LANG['managedomain'] = "Hallitse verkkotunnusta";
 $_LANG['changenameservers'] = "Muuta nimipalvelimia";
 $_LANG['clientareadomainmanagedns'] = "Nimipalvelinhallinta";
@@ -1629,7 +1629,7 @@ $_LANG['noannouncements'] = "Ei tiedotteita";
 $_LANG['kbsearchexplain'] = "Have a question? Start your search here.";
 $_LANG['readyforquestions'] = "We're ready and waiting for your questions";
 
-$_LANG['restrictedpage'] = "Pääsy sivulle on rajoitettu";
+$_LANG['restrictedpage'] = "Sinun tulee kirjautua ensin";
 $_LANG['enteremail'] = "Syötä sähköpostiosoite";
 
 $_LANG['passwordtips'] = "<strong>Vinkki vahvaan salasanaan</strong><br />Käytä isoja ja pieniä kirjaimia<br />Lisää vähintään yksi erikoismerkki (# $ ! % &amp; etc...) ja numero<br />Älä käytä sanakirjaa!";
@@ -1638,19 +1638,19 @@ $_LANG['regdate'] = "Rekisteröintipäivä";
 $_LANG['nextdue'] = "Seuraava eräpäivä";
 
 $_LANG['findyourdomain'] = "Etsi sinulle uusi verkkotunnus";
-$_LANG['searchtermrequired'] = "You must enter a domain name or keyword to look for";
+$_LANG['searchtermrequired'] = "Sinun tulee syöttää verkkotunnus tai avainsana hakeaksesi";
 $_LANG['unabletolookup'] = "Sorry, unable to lookup the term as provided";
 $_LANG['invalidchars'] = "Please remove spaces or special punctuation characters";
 $_LANG['bulkoptions'] = "Bulk Options";
-$_LANG['checkingdomain'] = "Checking if the domain you requested is available...";
+$_LANG['checkingdomain'] = "Tarkistetaan onko verkkotunnus vapaana...";
 $_LANG['domainsgotocheckout'] = "Siirry kassalle";
-$_LANG['domainssearchresults'] = "Search Results";
+$_LANG['domainssearchresults'] = "Hakutulokset";
 $_LANG['domainssuggestions'] = "Ehdotukset";
 $_LANG['domainsothersuggestions'] = "Voit olla myös kiinnostunut seuraavista verkkotunnuksista";
 $_LANG['domainsmoresuggestions'] = "Näytä lisää suosituksia!";
-$_LANG['domainssuggestionswarnings'] = "Domain name suggestions may not always be available. Availability is checked in real-time at the point of adding to the cart.";
+$_LANG['domainssuggestionswarnings'] = "Verkkotunnus ehdotukset eivät ole oaina saatavilla. Saatavuus tarkistetaan realiajassa.";
 $_LANG['disclaimers'] = "Vastuuvapaus";
-$_LANG['tldpricing'] = "TLD hinnasto";
+$_LANG['tldpricing'] = "Verkkotunnuspääte hinnasto";
 $_LANG['alltldpricing'] = "Kaikki TLD hinnat";
 
 $_LANG['quotesdesc'] = "Quotes we have generated for you";
@@ -1828,7 +1828,7 @@ $_LANG['licensingaddon']['reissue'] = "Uusi";
 $_LANG['licensingaddon']['reissuestatusmsg'] = "The Valid Domain, IP and Directory will be detected & saved the next time the license is accessed.";
 $_LANG['licensingaddon']['manageLicense'] = "Hallitse lisenssiä";
 
-$_LANG['affiliateWithdrawalSummary'] = "You will be able to request a withdrawal as soon as your balance reaches the minimum required amount of :amountForWithdrawal.";
+$_LANG['affiliateWithdrawalSummary'] = "Voit tilittää itsellesi kun on arvoa kerääntynyt yli :amountForWithdrawal.";
 
 $_LANG['projectManagement']['activeProjects'] = "Your Active Projects";
 
@@ -2686,4 +2686,5 @@ $_LANG['domainTldCategory']['gTLD'] = "Yleiset";
 $_LANG['domainTldCategory']['ccTLD'] = "Maakoodit";
 $_LANG['domainTldCategory']['Other'] = "Muut";
 
+$_LANG['orderForm']['shortPerYear'] = "/v";
 
