@@ -1,7 +1,3 @@
-# Finnish Translation of WHMCS
-
-This is my own WHMCS Finnish Translation
-
-## Use
+# Finnish Translation for WHMCS
 
 Download translation files to WHMCS lang/ -directory.
