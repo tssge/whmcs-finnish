@@ -291,7 +291,7 @@ $_LANG['domainemailforwardingforwardto'] = "Forward To";
 $_LANG['domainemailforwardingprefix'] = "Etuliite";
 $_LANG['domaineppcode'] = "Siirtoavain/välittäjänvaihtoavain";
 $_LANG['domaineppcodedesc'] = "Tämä avain tulee pyytää nykyiseltä palveluntarjojalta verkkotunnuksen siirtoa varten";
-$_LANG['domaineppcoderequired'] = "Sinun tulee syöttää sirtoavain/välittäjänvaihtoavain";
+$_LANG['domaineppcoderequired'] = "Sinun tulee syöttää sirtoavain/välittäjänvaihtoavain verkkotunnukselle";
 $_LANG['domainerror'] = "Virhe muodostaessa yhteyttä verkkotunnusrekisteriin. Ole hyvä ja yritä uudelleen.";
 $_LANG['domainerrornodomain'] = "Syötä voimassaoleva verkkotunnus";
 $_LANG['domainerrortoolong'] = "Verkkotunnuksen nimi on liian pitkä. Verkkotunnus voi olla enintään 67 merkkiä pitkä.";
@@ -1891,7 +1891,7 @@ $_LANG['billingAddress'] = "Laskutusosoite";
 
 $_LANG['noPasswordResetWhenLoggedIn'] = "Salasanan palautuspyyntöä ei voida toteuttaa kun olet kirjautuneena sisälle. Ole hyvä ja kirjaudu ulos ensin.";
 
-$_LANG['unableToLoadShoppingCart'] = "Unable to load your shopping cart. Please contact support.";
+$_LANG['unableToLoadShoppingCart'] = "Virhe ladatessa ostoskoria. Ole yhteydessä asiakaspalveluun.";
 
 $_LANG['showMenu'] = "Näytä valikko";
 $_LANG['hideMenu'] = "Piilota valikko";
@@ -1908,7 +1908,7 @@ $_LANG['orderForm']['check'] = "Tarkista";
 $_LANG['orderForm']['returnToClientArea'] = "Palaa asiakassivuille";
 $_LANG['orderForm']['checkout'] = "Maksa";
 $_LANG['orderForm']['alreadyRegistered'] = "Nykyinen asiakas?";
-$_LANG['orderForm']['createAccount'] = "Luo uusi asiakas";
+$_LANG['orderForm']['createAccount'] = "Uusi asiakas";
 $_LANG['orderForm']['enterPersonalDetails'] = "Syötä tietosi ja laskutustiedot maksamista varten.";
 $_LANG['orderForm']['correctErrors'] = "Tarkistathan seuraavat tiedot jatkaaksesi tilausta";
 $_LANG['orderForm']['existingCustomerLogin'] = "Kirjaudu sisälle";
@@ -2004,16 +2004,16 @@ $_LANG['sso']['summary'] = "Third party applications leverage the Single Sign-On
 $_LANG['sso']['disablenotice'] = "You may wish to disable this functionality if you provide access to any of your third party applications to users who you do not wish to be able to access your billing account.";
 $_LANG['sso']['enabled'] = "Single Sign-On is currently permitted for your account.";
 $_LANG['sso']['disabled'] = "Single Sign-On is currently disabled for your account.";
-$_LANG['sso']['redirectafterlogin'] = "You will be redirected after login";
+$_LANG['sso']['redirectafterlogin'] = "Sinut uudelleenohjataan kirjautumisen jälkeen";
 
 $_LANG['oauth']['badTwoFactorAuthModule'] = "Bad Two-Factor Auth Module. Please contact support.";
 $_LANG['oauth']['permAccessNameAndEmail'] = "Access your name and email address";
 
 $_LANG['errorButTryAgain'] = "An error occurred.  Please try again.";
-$_LANG['emailSent'] = 'Email Sent';
-$_LANG['verificationKeyExpired'] = 'This email verification key has expired. Please login to request a new one.';
-$_LANG['emailAddressVerified'] = 'Thank you for confirming your email address.';
-$_LANG['emailKeyExpired'] = 'This email verification key has expired. Please request a new one.';
+$_LANG['emailSent'] = 'Sähköposti viesti lähetetty';
+$_LANG['verificationKeyExpired'] = 'Sähköpostin vahvistusavain on vanhentunut. Kirjaudu pyytääksesi uuden avaimen.';
+$_LANG['emailAddressVerified'] = 'Kiitos vahvistaessasi sähköpostiosoitteesi.';
+$_LANG['emailKeyExpired'] = 'Tämä sähköpostin vahvistusavain on vanhentunut. Kirjaudu pyytääksesi uuden avaimen';
 $_LANG['verifyEmailAddress'] = 'Vahvista käyttäjätunnuksesi vahvisvistamalla sähköpostiosoitteesi';
 $_LANG['resendEmail'] = 'Uudelleenlähetä sähköpostivahvistusviesti';
 
@@ -2141,10 +2141,10 @@ $_LANG['pricing']['noExtensionsDefined'] = "Päätettä ei ole saatavilla";
 $_LANG['navStore'] = "Kauppa";
 $_LANG['navBrowseProductsServices'] = "Selaa";
 
-$_LANG['navWebsiteSecurity'] = "Website & Security";
-$_LANG['navMarketConnectService']['symantec'] = "SSL Certificates";
+$_LANG['navWebsiteSecurity'] = "Verkkosivut & Suojaus";
+$_LANG['navMarketConnectService']['symantec'] = "SSL Sertifikaatit";
 $_LANG['navMarketConnectService']['weebly'] = "Website Builder";
-$_LANG['navMarketConnectService']['spamexperts'] = "E-mail Services";
+$_LANG['navMarketConnectService']['spamexperts'] = "Sähköpostipalvelut";
 
 $_LANG['store']['emailServices']['title'] = "E-mail Services";
 $_LANG['store']['ssl']['title'] = "SSL Certificates";
@@ -2196,7 +2196,7 @@ $_LANG['navManageSsl'] = "Hallitse SSL-varmenteita";
 
 $_LANG['invoicesPaymentPending'] = "Maksua odotetaan";
 
-$_LANG['ssl']['changeApproverEmail'] = "Change Approver Email";
+$_LANG['ssl']['changeApproverEmail'] = "Vaihda vahvistussähköpostiosoitetta";
 $_LANG['ssl']['reissueCertificate'] = "Reissue Certificate";
 $_LANG['ssl']['retrieveCertificate'] = "Retrieve Certificate";
 
@@ -2260,9 +2260,9 @@ $_LANG['marketConnect']['weebly']['manage'] = "Kirjaudu Weebly Site Builder";
 $_LANG['domainChecker']['contactSupport'] = "Ota yhteyttä asiakaspalveluun";
 
 $_LANG['cart']['availableCreditBalance'] = "Saldon määrä :amount.";
-$_LANG['cart']['applyCreditAmount'] = "Apply <span>:amount</span> from my credit balance to this order and I will pay the remaining amount via the payment method selected below.";
-$_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "Apply <span>:amount</span> from my credit balance to this order. No further payment will be due.";
-$_LANG['cart']['applyCreditSkip'] = "Do not apply any credit from my credit balance to this order. I will pay for it using the payment method selected below.";
+$_LANG['cart']['applyCreditAmount'] = "Käytän <span>:amount</span> saldoa ja maksan ylijäävän seuraavalla maksutavalla.";
+$_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "Käytän <span>:amount</span> saldoa tässä tilauksessa.";
+$_LANG['cart']['applyCreditSkip'] = "En käytä saldoa tässä tilauksessa. Käytän seuraavaa maksutapaa.";
 
 $_LANG['dateTime']['monday'] = "maanantai";
 $_LANG['dateTime']['tuesday'] = "tiistai";
@@ -2327,9 +2327,9 @@ $_LANG['clientarearedemption'] = "Lunastusaika (Vanhentunut)";
 $_LANG['domainRenewal']['availablePeriods'] = "Saatavilla olevat uusintajaksot";
 $_LANG['domainRenewal']['unavailable'] = "Verkkotunnuksen uusintaa ei ole saatavilla";
 $_LANG['domainRenewal']['renewingDomains'] = "Uusi verkkotunnuksesi";
-$_LANG['domainRenewal']['graceFee'] = "Grace Fee";
+$_LANG['domainRenewal']['graceFee'] = "Suoja-aikamaksu";
 $_LANG['domainRenewal']['redemptionFee'] = "Lunastusmaksu";
-$_LANG['domainRenewal']['graceRenewalPeriodDescription'] = "Domains enter the Grace Period upon expiry. Once in this status, the domain may only be renewed for a maximum of the minimum registration period term.";
+$_LANG['domainRenewal']['graceRenewalPeriodDescription'] = "Verkkotunnus on suoja-ajalla ja se voidaan uusia vain 1 vuoden ajaksi.";
 $_LANG['domainRenewal']['hasExpired'] = "Tämä verkkotunnus on vanhentunut.";
 $_LANG['domainRenewal']['expiringIn'] = "Vanhenee :days päivän kuluttua";
 $_LANG['domainRenewal']['expiredDaysAgo'] = "Vanhentui :days päivää sitten";
@@ -2338,8 +2338,8 @@ $_LANG['domainRenewal']['showingDomains'] = "Näytetään :showing / :totalCount
 $_LANG['domainRenewal']['showAll'] = "Näytä kaikki";
 $_LANG['domainRenewal']['maximumAdvanceRenewal'] = "Maximum Advance Renewal is :days Day(s)";
 
-$_LANG['navMarketConnectService']['sitelock'] = "Website Security";
-$_LANG['store']['sitelock']['title'] = "SiteLock Website Security";
+$_LANG['navMarketConnectService']['sitelock'] = "Verkkosivun suojaus";
+$_LANG['store']['sitelock']['title'] = "SiteLock Verkkosivun suojaus";
 $_LANG['store']['sitelock']['tagline'] = "Automatically scan your website for malware and protect online reputation";
 $_LANG['store']['sitelock']['manageService'] = "Manage your SiteLock Service";
 $_LANG['store']['sitelock']['cartShortDescription'] = "SiteLock provides a range of features designed to protect both your website and your business’ reputation.";
@@ -2358,8 +2358,8 @@ $_LANG['store']['emailServices']['manageService'] = "Kirjaudu SpamExperts Contro
 
 $_LANG['noDomain'] = "Ei verkkotunnusta";
 
-$_LANG['upgradeService']['serviceBeingUpgraded'] = "Service being upgraded";
-$_LANG['upgradeService']['chooseNew'] = "Choose New Product/Plan";
+$_LANG['upgradeService']['serviceBeingUpgraded'] = "Palvelua päivitetään";
+$_LANG['upgradeService']['chooseNew'] = "Valitse uusi tuote/palvelu";
 $_LANG['upgradeService']['currentProduct'] = "Nykyinen palvelusi";
 $_LANG['upgradeService']['recommended'] = "Suosittu";
 $_LANG['upgradeService']['select'] = "Valitse";
@@ -2643,7 +2643,7 @@ $_LANG['marketConnect']['codeguard']['manage'] = "Login to CodeGuard Control Pan
 
 $_LANG['sslState']['sslInactive'] = "SSL-varmennetta ei tunnistettu. Valitse tästä tilataksesi SSL-varmenteen";
 $_LANG['sslState']['sslActive'] = "Voimassaoleva SSL-varmenne käytössä. Vanhenee :expiry";
-$_LANG['sslState']['sslUnknown'] = "Unable to validate SSL status";
+$_LANG['sslState']['sslUnknown'] = "Virhe tarkistaessa SSL-varmenteen tilaa";
 $_LANG['sslState']['validSsl'] = "Voimassaoleva SSL-varmenne käytössä";
 $_LANG['sslState']['noSsl'] = "SSL-varmennetta ei tunnistettu";
 $_LANG['sslState']['sslInactiveService'] = "Palvelu ei ole aktiivinen";
