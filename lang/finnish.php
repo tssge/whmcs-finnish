@@ -1,10 +1,7 @@
 <?php
-
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
-
 $_LANG['locale'] = "fi_FI";
 $_LANG['isocode'] = "fi";
-
 $_LANG['accountinfo'] = "Asiakastiedot";
 $_LANG['accountstats'] = "Käyttäjätilastot";
 $_LANG['addfunds'] = "Lisää saldoa";
@@ -818,13 +815,10 @@ $_LANG['welcomeback'] = "Hei";
 $_LANG['whoisresults'] = "WHOIS Results for";
 $_LANG['yes'] = "Kyllä";
 $_LANG['yourdetails'] = "Tietosi";
-
 # Version 4.1
-
 $_LANG['clientareafiles'] = "Attached Files";
 $_LANG['clientareafilesdate'] = "Lisätty";
 $_LANG['clientareafilesfilename'] = "Tiedoston nimi";
-
 $_LANG['pwreset'] = "Unohtuneen salasanan nollaus";
 $_LANG['pwresetdesc'] = "If you have forgotten your password, you can reset it here. When you fill in your registered email address (and answer your account security question if set), you will be sent instructions on how to reset your password.";
 $_LANG['pwresetemailrequired'] = "Annathan sähköpostiosoitteesi";
@@ -837,33 +831,24 @@ $_LANG['pwresetvalidationcheckemail'] = "Salasanan palautus on aloitettu. Tarkis
 $_LANG['pwresetkeyinvalid'] = "Salasanan palautuslinkki on virheellinen. Ole hyvä ja yritä uudelleen.";
 $_LANG['pwresetkeyexpired'] = "Salasanan palautuslinkki on vanhentunut. Ole hyvä ja yritä uudelleen.";
 $_LANG['pwresetvalidationsuccess'] = "Salasanan nollaus onnistui";
-
 $_LANG['overagescharges'] = "Overage Charge";
 $_LANG['overagestotaldiskusage'] = "Total Disk Usage";
 $_LANG['overagestotalbwusage'] = "Total Bandwidth Usage";
-
 $_LANG['affiliatescommissionspending'] = "Commissions Pending Maturation";
 $_LANG['affiliatescommissionsavailable'] = "Available Commissions Balance";
 $_LANG['affiliatessignups'] = "Rekisteröityneiden määrä";
 $_LANG['affiliatesconversionrate'] = "Conversion Rate";
-
 $_LANG['configoptionqtyminmax'] = "%s has a minimum requirement of %s and maximum of %s";
-
 $_LANG['creditcardnostore'] = "Tick this box if you do NOT want us to store your credit card details for recurring billing";
 $_LANG['creditcarddelete'] = "Poista tallennettu maksukortti";
 $_LANG['creditcarddeleteconfirmation'] = "The stored credit card details have now been removed from your account";
 $_LANG['creditcardupdatenotpossible'] = "Credit Card Details cannot be updated at the current time. Please try again later.";
-
 $_LANG['invoicepaymentsuccessconfirmation'] = "Thank You! Your payment was successful.";
 $_LANG['invoicepaymentfailedconfirmation'] = "Unfortunately your payment attempt was not successful.<br />Please try again or contact support.";
-
 # Version 4.2
-
 $_LANG['promoappliedbutnodiscount'] = "The promotion code you entered has been applied to your cart but no items qualify for the discount yet - please check the promotion terms";
-
 $_LANG['upgradeerroroverdueinvoice'] = "You cannot currently upgrade or downgrade this product because an invoice has already been generated for the next renewal.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.";
 $_LANG['upgradeexistingupgradeinvoice'] = "You cannot currently upgrade or downgrade this product because an upgrade or downgrade is already in progress.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.<br/><br/>If you believe you are receiving this message in error, please submit a trouble ticket.";
-
 $_LANG['subaccountactivate'] = "Aktivoi alikäyttäjä";
 $_LANG['subaccountactivatedesc'] = "Ota käyttöön asiakastiliin kirjautuminen alikäyttäjänä";
 $_LANG['subaccountpermissions'] = "Alikäyttäjän oikeudet";
@@ -882,12 +867,9 @@ $_LANG['subaccountpermissiondenied'] = "Sinulla ei ole oikeutta tälle sivulle";
 $_LANG['subaccountallowedperms'] = "Sinun tilisi oikeudet ovat:";
 $_LANG['subaccountcontactmaster'] = "Ota yhteyttä asiakastilin pääkäyttäjään tarvittaessa tilisi oikeuksien hallintaan liittyen.";
 $_LANG['subaccountSsoDenied'] = "Sinulla ei ole oikeutta käyttää Single Sign On-ominaisuutta.";
-
 $_LANG['knowledgebasealsoread'] = "Lue myös";
-
 $_LANG['orderpaymenttermtriennially'] = "Triennially";
 $_LANG['orderpaymentterm36month'] = "36 kuukauden hinta";
-
 $_LANG['domainrenewals'] = "Uusi verkkotunnuksia";
 $_LANG['domaindaysuntilexpiry'] = "päivää erääntymiseen";
 $_LANG['domainrenewalsnoneavailable'] = "There are no domains eligible for renewal in your account";
@@ -895,24 +877,18 @@ $_LANG['domainrenewalspastgraceperiod'] = "Past Renewable Period";
 $_LANG['domainrenewalsingraceperiod'] = "Viimeinen mahdollisuus uusia!";
 $_LANG['domainrenewalsdays'] = "Päiviä";
 $_LANG['domainrenewalsdaysago'] = "päivää sitten";
-
 $_LANG['invoicespartialpayments'] = "Osittainen maksu";
 $_LANG['invoicestotaldue'] = "Yhteensä maksamatta";
-
 $_LANG['masspaytitle'] = "Massamaksu";
 $_LANG['masspaydescription'] = "Below is a summary of the selected invoices and the total due to pay all of them. To submit payment please just choose your desired payment method below and then submit.";
 $_LANG['masspayselected'] = "Maksa valitut";
 $_LANG['masspayall'] = "Maksa kaikki";
 $_LANG['masspaymakepayment'] = "Maksa";
-
 # Version 4.3
-
 $_LANG['searchenterdomain'] = "Syötä verkkotunnuksesi";
 $_LANG['searchfilter'] = "Suodatin";
-
 $_LANG['suspendreason'] = "Keskeytyksen syy";
 $_LANG['suspendreasonoverdue'] = "Maksu myöhässä";
-
 $_LANG['vpsnetmanagement'] = "Virtuaalipalvelinten hallinta";
 $_LANG['vpsnetpowermanagement'] = "Power Management";
 $_LANG['poweron'] = "Virta päälle";
@@ -938,71 +914,47 @@ $_LANG['vpsnetcloud'] = "Cloud";
 $_LANG['vpsnettemplate'] = "Template";
 $_LANG['vpsnetstatus'] = "System Status";
 $_LANG['vpsnetbwusage'] = "Kaistankäyttö";
-
 $_LANG['twitterlatesttweets'] = "Viimeisimmät Twiitit";
 $_LANG['twitterfollow'] = "Seutaa meitä Twitter";
 $_LANG['twitterfollowus'] = "Seuraa meitä";
 $_LANG['twitterfollowuswhy'] = "to stay up to date with our latest news &amp; offers";
-
 $_LANG['chatlivehelp'] = "Live Help";
-
 $_LANG['domainrelease'] = "Vapauta verkkotunnus";
 $_LANG['domainreleasedescription'] = "Enter a new TAG here to move your domain name to another registrar";
 $_LANG['domainreleasetag'] = "New Registrar Tag";
-
 # Ajax Order Form
-
 $_LANG['orderformtitle'] = "Tilaus";
-
 $_LANG['signup'] = "Rekisteröidy";
 $_LANG['loading'] = "Ladataan...";
-
 $_LANG['ordersummarybegin'] = "Please choose a product to begin";
-
 $_LANG['cartchooseproduct'] = "Valitse tuote";
 $_LANG['cartconfigurationoptions'] = "Configuration Options";
-
 $_LANG['ordererrorsoccurred'] = "The following errors occurred and must be corrected before checkout:";
 $_LANG['ordererrortermsofservice'] = "Käyttöehdot tulee hyväksyä";
 $_LANG['ordertostickconfirm'] = "Klikkaa tästä hyväksyäksesi";
-
 $_LANG['cartnewcustomer'] = "Olen uusi asiakas";
 $_LANG['cartexistingcustomer'] = "Olen nykyinen asiakas";
-
 $_LANG['cartpromo'] = "Promotion";
 $_LANG['cartenterpromo'] = "Enter Promotion Code";
 $_LANG['cartremovepromo'] = "Remove Promo";
-
 $_LANG['cartrecurringcharges'] = "Toistuvat maksut";
-
 $_LANG['cartenterdomain'] = "Please enter the domain you would like to use below.";
-
 $_LANG['cartdomainavailableoptions'] = "Onnittelut, tämä verkkotunnus on saatavilla!";
 $_LANG['cartdomainavailableregister'] = "Ole hyvä ja rekisteröi tämä verkkotunnus";
 $_LANG['cartdomainavailablemanual'] = "I will register it myself seperately";
-
 $_LANG['cartdomainunavailableoptions'] = "Sorry, this domain is already taken. If you are the owner, please choose an option below...";
 $_LANG['cartdomainunavailabletransfer'] = "Please transfer my domain for";
 $_LANG['cartdomainunavailablemanual'] = "I already own this domain and will update the nameservers";
-
 $_LANG['cartdomaininvalid'] = "Syöttämäsi verkkotunnus on virheellinen. Syötä verkkotunnus ilman www. alkua ja syötä verkkotunnispääte";
-
 # Version 4.4
-
 $_LANG['dlinvalidlink'] = "Invalid Link Followed. Please Contact Support";
-
 $_LANG['domaindnsmanagementlaunch'] = "Launch DNS Manager";
 $_LANG['domainemailforwardinglaunch'] = "Launch Mail Forwarding Manager";
-
 # Version 4.5
-
 $_LANG['domaindnspriority'] = "Prioriteetti";
 $_LANG['domaindnsmxonly'] = "Priority Record for MX Only";
-
 $_LANG['orderpromoprestart'] = "This promotion has not yet started. Please try again later.";
-
 $_LANG['ticketmerge'] = "LIITETTY";
-
 $_LANG['quote'] = "Tarjoukset";
 $_LANG['quotestitle'] = "Minun tarjoukset";
 $_LANG['quoteview'] = "Näytä";
@@ -1031,12 +983,9 @@ $_LANG['quotestagedead'] = "Vanhentunut";
 $_LANG['quoteref'] = "Re Quote #";
 $_LANG['quotedeposit'] = "Deposit";
 $_LANG['quotefinalpayment'] = "Balance from Deposit";
-
 $_LANG['invoiceoneoffpayment'] = "Make One Off Payment";
 $_LANG['invoicesubscriptionpayment'] = "Create Automated Recurring Subscription";
-
 $_LANG['invoicepaymentpendingreview'] = "Thank You! Your payment was successful and will be applied to your invoice as soon as 2CheckOut's Review Process has completed.<br /><br />This can take up to a few hours so your patience is appreciated.";
-
 $_LANG['step'] = "Vaihe %s";
 $_LANG['cartdomainexists'] = "Tämä verkkotunnus on jo palvelussamme, joten sitä ei voi tilata uudelleen";
 $_LANG['cartcongratsdomainavailable'] = "Onnittelut, %s on saatavilla!";
@@ -1067,82 +1016,57 @@ $_LANG['cartchooseanothercategory'] = "Valitse toinen kategoria";
 $_LANG['carttryanotherdomain'] = "Valitse toinen verkkotunnus";
 $_LANG['cartmakedomainselection'] = "Please provide us with the domain you want to use with your hosting service by selecting an option from the selections below.";
 $_LANG['cartfraudcheck'] = "Fraud Check";
-
 $_LANG['newcustomer'] = "Uusi asiakas";
 $_LANG['existingcustomer'] = "Kirjaudu palveluun";
 $_LANG['newcustomersignup'] = "<strong>Ei vielä käyttäjätunnusta?</strong> %sRekisteröidy tästä...%s";
-
 $_LANG['upgradeonselectedoptions'] = "(On Selected Options)";
 $_LANG['recurringpromodesc'] = "This promotion code also includes a %s Recurring Discount<br />(This discount will apply to future renewals of the product's total price)";
-
 # Version 4.5.2
-
 $_LANG['ajaxcartcheckout'] = "Jump straight to checkout &raquo;";
 $_LANG['ordersummarybegin'] = "Shopping Cart is Empty<br/>Please choose a product and domain name option to begin...";
 $_LANG['ajaxcartconfigreqnotice'] = "You're on the way to signing up with us, but you must choose a domain before you can add the selected product to your cart...";
-
 # Version 5.0.0
-
 $_LANG['cancelrequestdomain'] = "Peruuta verkkotunnuksen uusinta?";
 $_LANG['cancelrequestdomaindesc'] = "You also have an active domain registration for the domain associated with this product<br />This domain is due to renew on %s at a cost of %s for %s Year/s<br /><br />If you would like to cancel the domain as well, and let it expire at the end of the current registration, then simply tick the box below.";
 $_LANG['cancelrequestdomainconfirm'] = "Vahvistan etten halua uusia tätä verkkotunnusta";
-
 $_LANG['startingfrom'] = "Starting from";
-
 $_LANG['orderpromopriceoverride'] = "Price Override";
 $_LANG['orderpromofreesetup'] = "Ilmainen avaus";
-
 $_LANG['thereisaproblem'] = "Oops, there's a problem...";
 $_LANG['problemgoback'] = "Palaa takaisin & yritä uudelleen";
-
 $_LANG['quantity'] = "Määrä";
 $_LANG['cartqtyenterquantity'] = "Want more than 1 of this item? Enter Quantity Here:";
 $_LANG['cartqtyupdate'] = "Päivitä";
 $_LANG['invoiceqtyeach'] = "/each";
-
 $_LANG['nschoicedefault'] = "Käytä oletusnimipalvelimia";
 $_LANG['nschoicecustom'] = "Käytä omia nimipalvelimia (syötä alle)";
-
 $_LANG['jumpto'] = "Siirry";
 $_LANG['top'] = "Ylös";
-
 $_LANG['domaincontactusexisting'] = "Käytä tilin tietoja";
 $_LANG['domaincontactusecustom'] = "Syötä mukautetut tiedot alle";
 $_LANG['domaincontactchoose'] = "Valitse yhteystieto";
 $_LANG['domaincontactprimary'] = "Päätilin tiedot";
-
 $_LANG['invoicepdfgenerated'] = "PDF Generated on";
-
 $_LANG['domainrenewalsbeforerenewlimit'] = "Minimum Advance Renewal is %s Days";
-
 $_LANG['promonewsignupsonly'] = "This promotion code is only valid for new customers";
-
 # Bulk Domain Management
-
 $_LANG['domainbulkmanagement'] = "Bulk Management Actions";
 $_LANG['domainbulkmanagementchangesaffect'] = "The changes made below will affect the following domains:";
 $_LANG['domainbulkmanagementchangeaffect'] = "This change will apply to the following domains:";
 $_LANG['domaincannotbemanaged'] = "cannot be managed automatically - please contact support regarding any changes you want to make";
 $_LANG['domainbulkmanagementnotpossible'] = "Unfortunately these settings cannot be edited from our client area at the current time. Please contact support regarding any changes you wanted to make.";
-
 $_LANG['domainmanagens'] = "Muokkaa nimipalvelimia";
-
 $_LANG['domainautorenewstatus'] = "Automaattisen uusinnan tila";
 $_LANG['domainautorenewinfo'] = "Auto renew helps protect your domain. When enabled, we will automatically send you a renewal invoice a few weeks before your domain expires, and  renew the domain should payment be successful.";
 $_LANG['domainautorenewrecommend'] = "We recommend keeping auto renew enabled to avoid losing your domain.";
-
 $_LANG['domainreglockstatus'] = "Siirtolukon tila";
 $_LANG['domainreglockinfo'] = "Siirtolukko (varkaussuoja) suojaa verkkotunnustasi luvattomilta siirroilta.";
 $_LANG['domainreglockrecommend'] = "Suosittelemme pitämään siirtolukkoa päällä estääksesi luvattomat verkkotunnus siirrot. Poista siirtolukko käytöstä kun haluat siirtää verkkotunnuksesi meiltä pois.";
 $_LANG['domainreglockenable'] = "Ota käyttöön siirtolukitus";
 $_LANG['domainreglockdisable'] = "Poista käytöstä siirtolukitus";
-
 $_LANG['domaincontactinfoedit'] = "Muokkaa yhteystietoja";
-
 $_LANG['domainmassrenew'] = "Uusi verkkotunnuksia";
-
 # reCAPTCHA
-
 $_LANG['captchatitle'] = "Spam Bot Verification";
 $_LANG['captchaverify'] = "Please enter the characters you see in the image below into the text box provided. This is required to prevent automated submissions.";
 $_LANG['captchaverifyincorrect'] = "The characters you entered didn't match the image shown. Please try again.";
@@ -1150,9 +1074,7 @@ $_LANG['googleRecaptchaIncorrect'] = "Please complete the captcha and try again.
 $_LANG['recaptcha-invalid-site-private-key'] = "An error occurred, please contact support (error code: cap1)";
 $_LANG['recaptcha-invalid-request-cookie'] = "An error occurred, please try again (error code: cap2)";
 $_LANG['recaptcha-incorrect-captcha-sol'] = "The characters you entered didn't match the word verification. Please try again.";
-
 # Product Bundles
-
 $_LANG['bundledeal'] = "Bundle Deal!";
 $_LANG['bundlevaliddateserror'] = "Bundle Unavailable";
 $_LANG['bundlevaliddateserrordesc'] = "This bundle is either not yet active or has expired. If you feel this message to be an error, please contact support.";
@@ -1170,9 +1092,7 @@ $_LANG['bundlewarningdomainreq'] = "The selected bundle requires you register or
 $_LANG['bundlewarningdomaintld'] = "The selected bundle requires you choose a domain with the extension(s) '%s' for domain %s to qualify";
 $_LANG['bundlewarningdomainregperiod'] = "The selected bundle requires you select the registration period '%s' for domain %s to qualify";
 $_LANG['bundlewarningdomainaddon'] = "The selected bundle requires you select the addon '%s' for domain %s to qualify";
-
 # New Client Area Template  Lines
-
 $_LANG['navservices'] = "Palvelut";
 $_LANG['navservicesorder'] = "Tilaa uusi palvelu";
 $_LANG['navservicesplaceorder'] = "Tee uusi tilaus";
@@ -1188,7 +1108,6 @@ $_LANG['navtickets'] = "Tukipyynnöt";
 $_LANG['navopenticket'] = "Avaa tukipyyntö";
 $_LANG['navmanagecc'] = "Hallitse maksukortteja";
 $_LANG['navemailssent'] = "Sähköpostihistoria";
-
 $_LANG['hello'] = "Hei";
 $_LANG['helloname'] = "Hei, %s!";
 $_LANG['account'] = "Käyttäjä";
@@ -1196,10 +1115,8 @@ $_LANG['login'] = "Kirjaudu";
 $_LANG['register'] = "Rekisteröidy";
 $_LANG['forgotpw'] = "Unohtunut salasana?";
 $_LANG['editaccountdetails'] = "Muokkaa käyttäjän tietoja";
-
 $_LANG['clientareanavccdetails'] = "Maksukortin tiedot";
 $_LANG['clientareanavcontacts'] = "Yhteystieto/Alikäyttäjätili";
-
 $_LANG['manageyouraccount'] = "Muokkaa käyttäjätunnusta";
 $_LANG['accountoverview'] = "Yleiskatsaus";
 $_LANG['paymentmethod'] = "Maksutapa";
@@ -1215,12 +1132,10 @@ $_LANG['cancel'] = "Peruuta";
 $_LANG['clientareabacklink'] = "&laquo; Takaisin";
 $_LANG['backtoserviceslist'] = "&laquo; Takaisin palveluiden listaukseen";
 $_LANG['backtodomainslist'] = "&laquo; Takaisin verkkotunnus listaukseen";
-
 $_LANG['clientareahomeorder'] = "Visit the Order Form to browse the Products & Services we offer. Existing customers can also purchase optional extras and addons here.";
 $_LANG['clientareahomelogin'] = "Onko sinulla jo käyttäjätunnus? Kirjaudu alla olevalla painikkesta asiakastilille.";
 $_LANG['clientareahomeorderbtn'] = "Go to Order Form";
 $_LANG['clientareahomeloginbtn'] = "Suojattu kirjautuminen";
-
 $_LANG['clientareaproductsintro'] = "These are all the services you have registered in this account.";
 $_LANG['clientareaproductdetailsintro'] = "Here is an overview of your product/service with us.";
 $_LANG['clientareadomainsintro'] = "View &amp; manage all the domains you have registered with us from here...";
@@ -1232,7 +1147,6 @@ $_LANG['addfundsintro'] = "Deposit money in advance";
 $_LANG['registerintro'] = "Luo käyttäjätunnus palveluun. . .";
 $_LANG['masspayintro'] = "Pay all the invoices listed below in a single easy transaction by choosing a payment method";
 $_LANG['networkstatusintro'] = "Service Status Information and Network Announcements";
-
 $_LANG['creditcardyourinfo'] = "Maksutiedot";
 $_LANG['ourlatestnews'] = "Viimeiset tiedotteet";
 $_LANG['ccexpiringsoon'] = "Maksukortti vanhenee pian";
@@ -1243,17 +1157,14 @@ $_LANG['youhaveoverdueinvoices'] = "Sinulla on %s eräntyneeitä laskuja";
 $_LANG['overdueinvoicesdesc'] = "Välttääksesi katkoksilta, maksathan maksamattomat laskut mahdollisimman pian. %sMaksa nyt &raquo;%s";
 $_LANG['supportticketsnoneopen'] = "Täälä ei ole avoinna tukipyyntöjä";
 $_LANG['invoicesnoneunpaid'] = "Täälä ei ole avoinna olevia laskuja";
-
 $_LANG['registerdisablednotice'] = "To register please place an <strong><a href=\"cart.php\">order</a></strong>";
 $_LANG['registerCreateAccount'] = "To create an account, please";
 $_LANG['registerCreateAccountOrder'] = "place an order with us";
-
 $_LANG['pwstrength'] = "Salasanan vahvuus";
 $_LANG['pwstrengthenter'] = "Syötä salasana";
 $_LANG['pwstrengthweak'] = "Heikko";
 $_LANG['pwstrengthmoderate'] = "Kohtalainen";
 $_LANG['pwstrengthstrong'] = "Vahva";
-
 $_LANG['managing'] = "";
 $_LANG['information'] = "Tiedot";
 $_LANG['withselected'] = "Valitut";
@@ -1263,7 +1174,6 @@ $_LANG['clientareadomainmanagedns'] = "Nimipalvelinhallinta";
 $_LANG['clientareadomainmanageemailfwds'] = "Hallitse sähköpostin edelleenlähetykset";
 $_LANG['moduleactionsuccess'] = "Action Completed Successfully!";
 $_LANG['moduleactionfailed'] = "Toiminto epäonnistui";
-
 $_LANG['domaininfoexp'] = "To the right you can find the details of your domain. You can manage your domain using the tabs above.";
 $_LANG['domainrenewexp'] = "Ota käyttöön automaattinen uusinta niin lähetämme uusintalaskun ennen verkkotunnus erääntyy.";
 $_LANG['domainnsexp'] = "Voit täälä muuttaa verkkotunnuksen nimipalvelimia. Huomaathan, että nimipalvelin muutos voi kestää jopa 24 tuntia.";
@@ -1271,55 +1181,41 @@ $_LANG['domainlockingexp'] = "Lukitse verkkotunnuksesi estääksesi luvattomat v
 $_LANG['domaincurrentlyunlocked'] = "Verkkotunnuksen lukitus poistettu käytöstä!";
 $_LANG['domaincurrentlyunlockedexp'] = "Sinun tulisi ottaa verkkotunnuksen siirtolukko käyttöön kunnes siirrät verkkotunnuksesi verkkotunnuksen toiselle palveluntarjoajalle.";
 $_LANG['searchmultipletlds'] = "Search Multiple TLDs";
-
 $_LANG['networkstatustitle'] = "Verkon tila";
 $_LANG['networkstatusnone'] = "Täälä ei ole %s palvelussa ongelmia";
 $_LANG['serverstatusheadingtext'] = "Tässä on realiaikainen näkymä palvelimien tilasta.";
-
 $_LANG['clientareacancelreasonrequired'] = "Sinun tulee syöttää peruuttamiseen syy";
-
 $_LANG['addfundsdescription'] = "Lisää saldoa käyttäjätilillesi välttääksesi pieniä maksutapahtumia ja automaatisoi automaattisesti uusien laskunen maksut.";
 $_LANG['addfundsnonrefundable'] = "* Ladattua saldoa ei ole palautettavissa.";
-
 $_LANG['creditcardexpirydateinvalid'] = "Maksukortin vanhentumispäivä tulee olla KK/VV muodossa";
-
 $_LANG['domaincheckerchoosedomain'] = "Valitse verkkotunnus...";
 $_LANG['domaincheckerchecknewdomain'] = "Tarkista uuden verkkotunnuksesi saatavuus";
 $_LANG['domaincheckerdomainexample'] = " esim. example.com";
 $_LANG['domaincheckerhostingonly'] = "Order Hosting Only";
 $_LANG['domaincheckerenterdomain'] = "Start your web hosting experience with us by entering the domain name you want to register, transfer or simply purchase hosting for below...";
-
 $_LANG['kbquestionsearchere'] = "Have a question? Start your search here.";
 $_LANG['contactus'] = "Ota yhteyttä";
-
 $_LANG['opennewticket'] = "Avaa uusi tukipyyntö";
 $_LANG['searchtickets'] = "Syötä tukipyynnön numero # tai aihe";
 $_LANG['supportticketspriority'] = "Prioriteetti";
 $_LANG['supportticketsubmitted'] = "Lähetety";
 $_LANG['supportticketscontact'] = "Yhteyshenkilö";
 $_LANG['supportticketsticketlastupdated'] = "Viimeksi päivtetty";
-
 $_LANG['upgradedowngradepackage'] = "Päivitä";
 $_LANG['upgradedowngradechooseproduct'] = "Valitse tuote";
-
 $_LANG['jobtitlereqforcompany'] = "(Required if Organization Name is set)";
-
 $_LANG['downloadproductrequired'] = "Downloading this item requires you to have an active instance of the following product/service:";
-
 $_LANG['affiliatesignuptitle'] = "Get Paid for Referring Customers to Us";
 $_LANG['affiliatesignupintro'] = "Activate your affiliate account and start earning money today...";
 $_LANG['affiliatesignupinfo1'] = "We pay commissions for every signup that comes via your custom signup link.";
 $_LANG['affiliatesignupinfo2'] = "We track the visitors you refer to us using cookies, so users you refer don't have to purchase instantly for you to receive your commission.  Cookies last for up to 90 days following the initial visit.";
 $_LANG['affiliatesignupinfo3'] = "If you would like to find out more, please contact us.";
-
 # Version 5.1
-
 $_LANG['copyright'] = "Kopiointioikeus";
 $_LANG['allrightsreserved'] = "Kaikki oikeudet pidätetään";
 $_LANG['supportticketsclose'] = "Sulje";
 $_LANG['affiliatesinitialthen'] = "Initially then";
 $_LANG['invoicesoutstandingbalance'] = "Outstanding Balance";
-
 $_LANG['cpanellogin'] = "Kirjaudu cPaneliin";
 $_LANG['cpanelwhmlogin'] = "Kirjaudu WHM:ään";
 $_LANG['cpanelwebmaillogin'] = "Kirjaudu Webmailiin";
@@ -1343,25 +1239,18 @@ $_LANG['enomtrustelogin'] = "Login to TrustE Control Panel";
 $_LANG['directadminlogin'] = "Login to DirectAdmin";
 $_LANG['centovacastlogin'] = "Login to Centova Cast";
 $_LANG['castcontrollogin'] = "Login to Control Panel";
-
 $_LANG['sslconfigurenow'] = "Configure Now";
 $_LANG['sslprovisioningdate'] = "SSL Provisioning Date";
 $_LANG['globalsignvoucherscode'] = "Your OneClickSSL Voucher Code";
 $_LANG['globalsignvouchersnotissued'] = "Not Yet Issued";
-
 $_LANG['domaintrffailreasonunavailable'] = "Failure Reason Unavailable";
-
 $_LANG['clientareaprojects'] = "My Projects";
-
 $_LANG['clientgroupdiscount'] = "Client Discount";
 $_LANG['billableitemshours'] = "Hours";
 $_LANG['billableitemshour'] = "Hour";
-
 $_LANG['invoicefilename'] = "Lasku-";
 $_LANG['quotefilename'] = "Quote-";
-
 # Domain Addons
-
 $_LANG['domainaddons'] = "Lisäpalvelut";
 $_LANG['domainaddonsinfo'] = "Seuraavat lisäpalvelut saatavilla verkkotunnuksellesi...";
 $_LANG['domainaddonsdnsmanagement'] = "Nimipalvelutietueiden hallinta";
@@ -1374,9 +1263,7 @@ $_LANG['domainaddonscancelareyousure'] = "Oletko varma ja haluat poistaa tämän
 $_LANG['domainaddonsconfirm'] = "Vahvista peruutus";
 $_LANG['domainaddonscancelsuccess'] = "Lisäpalvelu on poistettu käytöstä!";
 $_LANG['domainaddonscancelfailed'] = "Failed to deactivate addon. Please contact support.";
-
 # Version 5.2
-
 $_LANG['yourclientareahostingaddons'] = "You have the following addons for this product.";
 $_LANG['loginrequired'] = "Kirjautuminen vaadittu";
 $_LANG['unsubscribe'] = "Peruuta tilaus";
@@ -1391,16 +1278,12 @@ $_LANG['newslettersubscribed'] = "You have been successfully subscribed to our m
 $_LANG['emailMarketingAlreadyOptedIn'] = "You are already subscribed to our mailing list.";
 $_LANG['emailMarketingAlreadyOptedOut'] = "You are already unsubscribed from our mailing list.";
 $_LANG['manageSubscription'] = "Hallitse tilaustasi";
-
 $_LANG['erroroccured'] = "Virhe tapahtui";
 $_LANG['pwresetsuccessdesc'] = "Salasanasi on nyt vaihdettu. Jatka %stästä%s asiakastilille...";
 $_LANG['pwresetenternewpw'] = "Syötä uusi salasana alle.";
 $_LANG['ordererrorsbudomainbanned'] = "The subdomain prefix you entered is not allowed - please try another";
-
 $_LANG['ticketfeedbacktitle'] = "Palaute tukipyynnölle";
-
 $_LANG['nosupportdepartments'] = "No support departments found. Please try again later.";
-
 $_LANG['feedbackclosed'] = "Palautetta tukipyynnöstä ei voi antaa ennnen kuin tukipyyntö on suljettu";
 $_LANG['feedbackprovided'] = "Olet jo antanut palautetta tästä tukipyynnöstä";
 $_LANG['feedbackthankyou'] = "We thank you for taking the time to provide your feedback.";
@@ -1419,9 +1302,7 @@ $_LANG['feedbackbest'] = "Paras";
 $_LANG['feedbackimprove'] = "Kuinka voisimme parantaa asiakaskokemustamme jatkossa?";
 $_LANG['pleaserate2'] = "handled this support request";
 $_LANG['feedbacksupplyrating'] = "Arvioi asiakaspalvelijaamme :staffname (kommentoi vapaasti)";
-
 $_LANG['returnclient'] = "Palaa asiakassivuille";
-
 $_LANG['clientareanavsecurity'] = "Suojausasetukset";
 $_LANG['twofactorauth'] = "Kaksivaiheinen todennus";
 $_LANG['twofaenable'] = "Ota käyttöön kaksivaiheinen todennus";
@@ -1449,18 +1330,14 @@ $_LANG['twofabackupcodereset'] = "Kirjautuminen varakoodilla onnistui<br />Varak
 $_LANG['twofacantaccess2ndfactor'] = "Ei 2-vaiheisen tunnistus laitetta?";
 $_LANG['twofaloginusingbackupcode'] = "Käytä varakoodeja";
 $_LANG['twofageneralerror'] = "An error occurred loading the module. Please try again.";
-
 $_LANG['continue'] = "Jatka";
 $_LANG['disable'] = "Poista käytöstä";
 $_LANG['manage'] = "Hallitse";
-
 # Version 5.3
 $_LANG['quoteacceptancetitle'] = "Quote Acceptance";
 $_LANG['quoteacceptancehowto'] = "To accept the quote, please confirm your acceptance of our terms of service which can be viewed @";
 $_LANG['quoteacceptancewarning'] = "Please be aware that accepting a quote is considered entering into a contract and you will not be able to cancel once accepted.";
-
 $_LANG['contactform'] = "Yhteydenottolomake";
-
 $_LANG['twoipverificationstep'] = "Verification Step";
 $_LANG['twoipverificationstepmsg'] = "Enter the security code generated by your mobile authenticator app and we'll make sure it's configured correctly before enabling it.";
 $_LANG['twoipverificationerror'] = "It seem's there's a problem...";
@@ -1471,7 +1348,6 @@ $_LANG['twoipconfigureapp'] = "To configure your authenticator app:";
 $_LANG['twoipconfigurestep1'] = "Begin by selecting to add a new time based token";
 $_LANG['twoipconfigurestep2'] = "Then use your app to scan the barcode below, or alternatively enter this secret key manually: ";
 $_LANG['twoipgdmissing'] = "GD is missing from the PHP build on your server so unable to generate image";
-
 $_LANG['domaincontactdetails']['First Name'] = "Etunimi";
 $_LANG['domaincontactdetails']['Last Name'] = "Sukunimi";
 $_LANG['domaincontactdetails']['Full Name'] = "Kokonimi";
@@ -1497,13 +1373,10 @@ $_LANG['domaincontactdetails']['Country'] = "Maa";
 $_LANG['domaincontactdetails']['Phone'] = "Puhelinnumero";
 $_LANG['domaincontactdetails']['Phone Number'] = "Puhelinnumero";
 $_LANG['domaincontactdetails']['Fax'] = "Faksi";
-
 $_LANG['serverhostnameexample'] = "esim. server1(.example.com)";
 $_LANG['serverns1prefixexample'] = "esim. ns1(.example.com)";
 $_LANG['serverns2prefixexample'] = "esim. ns2(.example.com)";
-
 $_LANG['hosting'] = "Webhotelli";
-
 $_LANG['enomfrregistration']['Heading'] = ".fr domains have different required values depending on your nationality and type of registration:";
 $_LANG['enomfrregistration']['French Individuals']['Name'] = "Ranskalainen yksityishenkilö";
 $_LANG['enomfrregistration']['French Individuals']['Requirements'] = "Please provide your \"Birthdate\", \"Birthplace City\", and \"Birthplace Postcode\".";
@@ -1514,18 +1387,13 @@ $_LANG['enomfrregistration']['French Companies']['Requirements'] = "Please provi
 $_LANG['enomfrregistration']['EU Non-French Companies']['Name'] = "EU Non-French Companies";
 $_LANG['enomfrregistration']['EU Non-French Companies']['Requirements'] = "Please provide the company \"DUNS Number\", and the \"Birthdate\" of the Owner Contact.";
 $_LANG['enomfrregistration']['Non-EU Warning'] = "Client contact information must be within the EU or else registration will fail.";
-
 $_LANG['confirm'] = "Vahvista";
-
 $_LANG['maxmind_checkconfiguration'] = "An error occurred with the Fraud Check. Please contact support.";
 $_LANG['maxmind_addressinvalid'] = "Your address is not recognised. Please check and re-enter.";
 $_LANG['maxmind_invalidip'] = "IP Address invalid or a local address. Please contact support.";
-
 $_LANG['ssounabletologin'] = "Virhe automaattisessa kirjautumisessa. Olethan yhteydessä asiakaspalveluun.";
 $_LANG['ssofatalerror'] = "Virhe. Olethan yhteydessä asiakaspalveluun.";
-
 # Version 6.0
-
 $_LANG['announcementschoosemonth'] = "Valitse kuukausi";
 $_LANG['announcementsbymonth'] = "Kuukausittain";
 $_LANG['announcementsolder'] = "Vanhemmat tiedotteet";
@@ -1537,7 +1405,6 @@ $_LANG['affiliatesclicks'] = "Klikkauksia";
 $_LANG['contacts'] = "Yhteystiedot";
 $_LANG['backtoservicedetails'] = "Palaa takaisin";
 $_LANG['invoicesintro'] = "Laskuhistoria";
-
 $_LANG['sidebars']['viewAccount']['yourAccount'] = "Käyttäjätilisi";
 $_LANG['sidebars']['viewAccount']['myDetails'] = "Käyttäjätietosi";
 $_LANG['sidebars']['viewAccount']['billingInformation'] = "Maksutiedot";
@@ -1545,38 +1412,29 @@ $_LANG['sidebars']['viewAccount']['contacts/subAccounts'] = "Yhteystiedot/Alikä
 $_LANG['sidebars']['viewAccount']['changePassword'] = "Vaihda salasana";
 $_LANG['sidebars']['viewAccount']['securitySettings'] = "Suojausasetukset";
 $_LANG['sidebars']['viewAccount']['emailHistory'] = "Sähköpostihistoria";
-
 $_LANG['aboutsecurityquestions'] = "Why security questions?";
 $_LANG['registersecurityquestionblurb'] = "Setting a security question will provide extra security, as all changes to your account require providing the additional information from your question.";
-
 $_LANG['update'] = "Päivitä";
 $_LANG['yourinfo'] = "Käyttäjätietosi";
 $_LANG['shortcuts'] = "Pikalinkit";
-
 $_LANG['yourservices'] = "Palvelusi";
 $_LANG['yourdomains'] = "Verkkotunnuksesi";
 $_LANG['yourtickets'] = "Tukipyyntösi";
 $_LANG['managecontacts'] = "Hallitse yhteystietoja";
 $_LANG['billingdetails'] = "Laskutustiedot";
 $_LANG['homechooseproductservice'] = "Choose a product/service to manage:";
-
 $_LANG['invoicesdue'] = "Laskun eräpäviä";
 $_LANG['invoicesduemsg'] = "Sinulla on  %s lasku(ja) tällä hetkellä avoinna %s";
 $_LANG['noinvoicesduemsg'] = "Sinulla ei ole avoinna olevia laskuja tällä hetkellä.";
-
 $_LANG['expiringsoon'] = "Erääntyy pian";
-
 $_LANG['notice'] = "Huomautus";
 $_LANG['networkstatussubtitle'] = "News & Information";
-
 $_LANG['myaccount'] = "Käyttäjätilini";
-
 $_LANG['manageproduct'] = "Hallitse tuotteita";
 $_LANG['overview'] = "Yleiskatsaus";
 $_LANG['servername'] = "Palvelimen nimi";
 $_LANG['visitwebsite'] = "Käy sivustolla";
 $_LANG['whoisinfo'] = "WHOIS-tiedot";
-
 $_LANG['tableshowing'] = "Näytetään _START_ - _END_ / _TOTAL_ ";
 $_LANG['tableempty'] = "Näytetään 0 - 0 / 0 ";
 $_LANG['tablefiltered'] = "(filtered from _MAX_ total entries)";
@@ -1589,30 +1447,19 @@ $_LANG['tablepagesnext'] = "Seuraava";
 $_LANG['tablepagesprevious'] = "Takaisin";
 $_LANG['tableviewall'] = "kaikki";
 $_LANG['tableentersearchterm'] = "Enter search term...";
-
 $_LANG['actions'] = "Toiminnot";
-
 $_LANG['upgradedowngradeshort'] = "Päivitä";
-
 $_LANG['masspayintro'] = "Maksa kaikki avoimet laskut kerralla";
 $_LANG['masspaymentselectgateway'] = "Valitse maksutapa";
-
 $_LANG['ticketfeedbackrequest'] = "Palaute pyyntö";
 $_LANG['ticketfeedbackforticket'] = "tukipyynnölle #";
-
 $_LANG['notifications'] = "Ilmoitukset";
 $_LANG['notificationsnone'] = "Ilmoituksia ei tällä hetkellä.";
-
 $_LANG['creditcardnonestored'] = "Ei maksukorttia tallennettu";
-
 $_LANG['kbviewingarticlestagged'] = "Näytetään artikkelit avainsanalla";
-
 $_LANG['domainprivatenameservers'] = "Omat nimipalvelimet";
-
 $_LANG['transferinadomain'] = "Siirrä verkkotunnus";
-
 $_LANG['nodomainextensions'] = "There are no Domain Extensions currently configured for purchase";
-
 $_LANG['homebegin'] = "Hae sinulle sopiva verkkotunnus...";
 $_LANG['howcanwehelp'] = "Kuinka voimme auttaa sinua?";
 $_LANG['exampledomain'] = "esim. example.com";
@@ -1620,23 +1467,17 @@ $_LANG['buyadomain'] = "Rekisteröi verkkotunnus";
 $_LANG['orderhosting'] = "Tilaa webhotelli";
 $_LANG['makepayment'] = "Maksa laskut";
 $_LANG['getsupport'] = "Tee tukipyyntö";
-
 $_LANG['news'] = "Tiedotteet";
 $_LANG['allthelatest'] = "Viimeisimmät ";
 $_LANG['readmore'] = "Lue lisää";
 $_LANG['noannouncements'] = "Ei tiedotteita";
-
 $_LANG['kbsearchexplain'] = "Have a question? Start your search here.";
 $_LANG['readyforquestions'] = "We're ready and waiting for your questions";
-
 $_LANG['restrictedpage'] = "Sinun tulee kirjautua ensin";
 $_LANG['enteremail'] = "Syötä sähköpostiosoite";
-
 $_LANG['passwordtips'] = "<strong>Vinkki vahvaan salasanaan</strong><br />Käytä isoja ja pieniä kirjaimia<br />Lisää vähintään yksi erikoismerkki (# $ ! % &amp; etc...) ja numero<br />Älä käytä sanakirjaa!";
-
 $_LANG['regdate'] = "Rekisteröintipäivä";
 $_LANG['nextdue'] = "Seuraava eräpäivä";
-
 $_LANG['findyourdomain'] = "Etsi sinulle uusi verkkotunnus";
 $_LANG['searchtermrequired'] = "Sinun tulee syöttää verkkotunnus tai avainsana hakeaksesi";
 $_LANG['unabletolookup'] = "Sorry, unable to lookup the term as provided";
@@ -1652,34 +1493,24 @@ $_LANG['domainssuggestionswarnings'] = "Verkkotunnus ehdotukset eivät ole oaina
 $_LANG['disclaimers'] = "Vastuuvapaus";
 $_LANG['tldpricing'] = "Verkkotunnuspääte hinnasto";
 $_LANG['alltldpricing'] = "Kaikki TLD hinnat";
-
 $_LANG['quotesdesc'] = "Quotes we have generated for you";
 $_LANG['quotesrejected'] = "Rejected";
-
 $_LANG['ticketsyourhistory'] = "Tukipyyntöhistoria";
-
 $_LANG['clientareaemaildesc'] = "Sähköpostihistoria kanssamme";
-
 $_LANG['sslconfssl'] = "Configure SSL";
 $_LANG['sslnoconfigurationpossible'] = "Configuration has already been completed!  Please contact support if you are experiencing issues.";
-
 $_LANG['adminloggedin'] = "Olet kirjautuneena järjestelmävalvojana.";
 $_LANG['returntoadminarea'] = "Klikkaa tästä palataksesi takaisin ylläpitäjän hallintaan";
 $_LANG['adminmasqueradingasclient'] = "You are currently masquerading as a client.";
 $_LANG['logoutandreturntoadminarea'] = "Klikkaa tästä kirjautuaksesi ulos & palataksesi Admin Area";
-
 $_LANG['supportAndUpdatesExpired'] = "Support & Updates are expired.";
 $_LANG['supportAndUpdatesExpiredLicense'] = "Your Support & Updates period for this license has expired";
 $_LANG['supportAndUpdatesRenewalRequired'] = "Support & Updates access needs to be renewed before you can access this download.";
 $_LANG['supportAndUpdatesClickHereToRenew'] = "Click Here to Renew";
-
 $_LANG['pwresetemailneeded'] = "Salasana unohtunut? Syötä sähköpostiosoitteesi aloittaaksesi salasanan nollaus prosessin.";
-
 $_LANG['quotestageexpired'] = "Vanhentunut";
-
 $_LANG['ticketinfo'] = "Tukipyynön tiedot";
 $_LANG['customfield'] = "Custom Fields";
-
 $_LANG['domainsActive'] = "Aktiivinen";
 $_LANG['domainsExpired'] = "Vanhentunut";
 $_LANG['domainsCancelled'] = "Peruutettu";
@@ -1688,14 +1519,10 @@ $_LANG['domainsPending'] = "Odottaa";
 $_LANG['domainsPendingRegistration'] = "Odottaa rekisteröintiä";
 $_LANG['domainsPendingTransfer'] = "Odottaa siirtoa";
 $_LANG['domainsTransferredAway'] = "Siirretty pois";
-
 $_LANG['kbtagcloud'] = "Avainsanat";
-
 $_LANG['cancellationrequestedexplanation'] = "Palvelusta on peruutusilmoitus tehty";
 $_LANG['cancellationrequested'] = "Peruutusilmoitus tehty";
-
 $_LANG['yourrecenttickets'] = "Viimeisimmät tukipyynnöt";
-
 $_LANG['domains']['deTermsDescription1'] = "To register a new domain, transfer or change registrant information the registrant must explicitly accept the .DE terms and conditions.";
 $_LANG['domains']['deTermsDescription2'] = "(See full text of .de terms and conditions: http://www.denic.de/en/bedingungen.html.)";
 $_LANG['directDebitPageTitle'] = "Direct Debit Payment";
@@ -1716,31 +1543,23 @@ $_LANG['directDebitConfirmAccNumber'] = "Confirm Account Number";
 $_LANG['directDebitSubmit'] = "Submit";
 $_LANG['directDebitChecking'] = "Checking";
 $_LANG['directDebitSavings'] = "Savings";
-
 $_LANG['outOfStockProductRemoved'] = "An out of stock product was automatically removed from the cart";
-
 $_LANG['subaccountpermsquotes'] = "Näytä & hyväksy tarjous";
-
 $_LANG['chooselanguage'] = "Valitse";
-
 $_LANG['success'] = "Success";
 $_LANG['error'] = "Virhe";
 $_LANG['print'] = "Tulosta";
 $_LANG['invoicelineitems'] = "Tuotteet/Palvelut";
-
 $_LANG['quotelineitems'] = "Tarjoustuotteet";
-
 $_LANG['quoteproposal'] = "Ehdotus";
 $_LANG['quoteacceptagreetos'] = "Hyväksyäksesi tarjouksen, sinun tulee hyväksyä käyttäehtomme.";
 $_LANG['quoteacceptcontractwarning'] = "Tarjouksen hyväksyntä katsotaan sopimuksen vahvistamiseksi ja sitä ei voi peruuttaa.";
-
 // Client alerts
 $_LANG['clientAlerts']['creditCardExpiring'] = "Sinun maksukorttisi :creditCardType-:creditCardLastFourDigits vanhenee :days päivän kuluttua. Päivitä maksukorttisi tiedot mahdollisimman pian.";
 $_LANG['clientAlerts']['domainsExpiringSoon'] = "Sinulla on :numberOfDomains verkkotunnus(ta), jotka vanhenevat :days päivän kuluessa.";
 $_LANG['clientAlerts']['invoicesUnpaid'] = "Sinulla on avoinna :numberOfInvoices lasku(ja).";
 $_LANG['clientAlerts']['invoicesOverdue'] = "Sinulla on erääntynyt :numberOfInvoices lasku(ja) ja niiden yhtenlaskettu summa on :balanceDue. Maksa avoimet laskut välttääksesi palveluitesi sulkeutumisen.";
 $_LANG['clientAlerts']['creditBalance'] = "You have a credit balance of :creditBalance.";
-
 // Client homepage panels
 $_LANG['clientHomePanels']['unpaidInvoices'] = "Maksamattomat laskut";
 $_LANG['clientHomePanels']['unpaidInvoicesMsg'] = "You have :numberOfInvoices unpaid invoice(s) with a total balance due of :balanceDue. Pay them early for peace of mind.";
@@ -1749,17 +1568,15 @@ $_LANG['clientHomePanels']['overdueInvoicesMsg'] = "You have :numberOfInvoices o
 $_LANG['clientHomePanels']['domainsExpiringSoon'] = "Vanhenevat verkkotunnukset";
 $_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "Sinulla on :numberOfDomains verkkotunnus(ta) jokan vanhenee/jotka vanhenevat :days päivän kuluttua. Uusi verkkotunnukset tänään.";
 $_LANG['clientHomePanels']['activeProductsServices'] = "Aktiiviset palvelut";
-$_LANG['clientHomePanels']['activeProductsServicesNone'] = "It appears you do not have any products/services with us yet. <a href=\"cart.php\">Place an order to get started</a>.";
+$_LANG['clientHomePanels']['activeProductsServicesNone'] = "Sinulla ei ole aktiivisia palveluita. <a href=\"cart.php\">Tilaa tästä palvelu</a>.";
 $_LANG['clientHomePanels']['recentNews'] = "Uusimmat tiedotteet";
 $_LANG['clientHomePanels']['affiliateProgram'] = "Kumppanuusohjelma";
 $_LANG['clientHomePanels']['recentSupportTickets'] = "Viimeisimmät tukipyynnöt";
-$_LANG['clientHomePanels']['recentSupportTicketsNone'] = "No Recent Tickets Found. If you need any help, please <a href=\"submitticket.php\">open a ticket</a>.";
+$_LANG['clientHomePanels']['recentSupportTicketsNone'] = "Ei tukipyyntöjä. Mikäli tarvitset apua, avaathan  <a href=\"submitticket.php\">tukipyynnön</a>.";
 $_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balance is :commissionBalance. You only need another :amountUntilWithdrawalLevel before you can withdraw your earnings.";
 $_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "Your current commission balance is :commissionBalance. You may withdraw your earnings now.";
-
 $_LANG['upgradeNotPossible'] = "Upgrading this product is not possible.  If you believe you've reached this page in error, please notify our support department.  Otherwise, go back and double check your selection.";
 $_LANG['upgradeSameProductMustExtendCycle'] = "To upgrade your billing cycle, please choose a cycle that is greater than your current billing cycle.";
-
 $_LANG['hostingInfo'] = "Hosting Information";
 $_LANG['additionalInfo'] = "Additional Information";
 $_LANG['resourceUsage'] = "Resource Usage";
@@ -1769,31 +1586,23 @@ $_LANG['diskSpace'] = "Levytila";
 $_LANG['bandwidth'] = "Tiedonsiirtokaista";
 $_LANG['registered'] = "Rekisteröity";
 $_LANG['upgrade'] = "Päivitä";
-
 $_LANG['downdoadsdesc'] = "Manuals, programs, and other files";
-
 $_LANG['doToday'] = "Mitä haluaisit tehdä?";
 $_LANG['changeDomainNS'] = "Muuttaa verkkotunnuksen nimipalvelimia";
 $_LANG['updateWhoisContact'] = "Päivitä verkkotunnuksen yhteystietoja";
 $_LANG['changeRegLock'] = "Muuta verkkotunnuksen siirtolukon tilaa";
 $_LANG['renewYourDomain'] = "Uusia verkkotunnuksen voimassaoloaikaa";
-
 $_LANG['oops'] = "Hups";
 $_LANG['goback'] = "Palaa takaisin";
 $_LANG['returnhome'] = "Palaa etusivulle";
 $_LANG['blankCustomField'] = "(ei arvoa)";
-
 $_LANG['viewAll'] = "Näytä kaikki";
 $_LANG['moreDetails'] = "Lisätietoa";
-
 $_LANG['clientHomeSearchKb'] = "Hae ohjeita...";
-
 $_LANG['whoisContactWarning'] = "On tärkeää pitää yhteystiedot ajantasalla verkkotunnusrekisterissä välttääksesi verkkotunnuksen hallinnan menetyksen.";
-
 $_LANG['paymentstodate'] = "Maksupäivä";
 $_LANG['balancedue'] = "Summa";
 $_LANG['submitpayment'] = "Maksa";
-
 $_LANG['domaincheckeravailable'] = "Saatavilla";
 $_LANG['domaincheckertransferable'] = "Siirrettävissä";
 $_LANG['domaincheckertaken'] = "Taken";
@@ -1802,20 +1611,15 @@ $_LANG['domaincheckeradded'] = "Lisätty";
 $_LANG['domaincheckernomoresuggestions'] = "That's all the results we have for you! If you still haven't found what you're looking for, please try a different search term or keyword.";
 $_LANG['domaincheckerunabletooffertld'] = "Unfortunately we are unable to register this TLD at this time";
 $_LANG['domaincheckerbulkplaceholder'] = "Enter up to 20 domain names.\nEach name must be on a separate line.\n\nExamples:\nexample.com\nexample.net";
-
 $_LANG['domainchecker']['suggestiontakentitle'] = "Verkkotunnusta ei ole saatavilla";
 $_LANG['domainchecker']['suggestiontakenmsg'] = "Valitettavasti valitsemasi verkkotunnusta ei ole saatavilla. Tämä voi tapahtua kun verkkotunnus on juuri rekisteröity. Palaa takaisin ja valitse toinen verkkotunnus.";
 $_LANG['domainchecker']['suggestiontakenchooseanother'] = "Valitse toinen verkkotunnus";
-
 $_LANG['domainchecker']['alreadyincarttitle'] = "Tuote on jo ostoskorissa";
 $_LANG['domainchecker']['alreadyincartmsg'] = "Tämä verkkotunnus on jo ostoskorissa. Siirry kassalle suoritaaksesi maksun.";
 $_LANG['domainchecker']['alreadyincartcheckoutnow'] = "Siirry kassalle";
-
 $_LANG['genericerror']['title'] = "Hups, jokin meni vikaan!";
 $_LANG['genericerror']['msg'] = "Ole hyvä ja yritä uudelleen. Mikäli ongelma toistuu, ole yhteydessä asiakaspalveluun.";
-
 # Licensing Addon
-
 $_LANG['licensingaddon']['mylicenses'] = "Lisenssini";
 $_LANG['licensingaddon']['latestdownload'] = "Viimeisimmät lataukset";
 $_LANG['licensingaddon']['downloadnow'] = "Lataa nyt";
@@ -1827,17 +1631,12 @@ $_LANG['licensingaddon']['status'] = "Lisenssin tila";
 $_LANG['licensingaddon']['reissue'] = "Uusi";
 $_LANG['licensingaddon']['reissuestatusmsg'] = "The Valid Domain, IP and Directory will be detected & saved the next time the license is accessed.";
 $_LANG['licensingaddon']['manageLicense'] = "Hallitse lisenssiä";
-
 $_LANG['affiliateWithdrawalSummary'] = "Voit tilittää itsellesi kun on arvoa kerääntynyt yli :amountForWithdrawal.";
-
 $_LANG['projectManagement']['activeProjects'] = "Your Active Projects";
-
 # cPanel Module
-
 $_LANG['cPanel']['packageDomain'] = "Webhotellipaketti";
 $_LANG['cPanel']['addonsExtras'] = "Lisäpalvelut";
 $_LANG['cPanel']['purchaseActivate'] = "Tilaa & Aktivoi";
-
 $_LANG['cPanel']['usageStats'] = "Käyttöaste";
 $_LANG['cPanel']['diskUsage'] = "Levytilan käyttö";
 $_LANG['cPanel']['bandwidthUsage'] = "Kaistan käyttö";
@@ -1845,7 +1644,6 @@ $_LANG['cPanel']['usageStatsBwLimitNear'] = "You are nearing your bandwidth limi
 $_LANG['cPanel']['usageStatsDiskLimitNear'] = "You are nearing your disk space limit.";
 $_LANG['cPanel']['usageUpgradeNow'] = "Päivitä nyt";
 $_LANG['cPanel']['usageLastUpdated'] = "Viimeksi päivitetty";
-
 $_LANG['cPanel']['quickShortcuts'] = "Pikalinkit";
 $_LANG['cPanel']['emailAccounts'] = "Sähköpostitilit";
 $_LANG['cPanel']['forwarders'] = "Edelleenlähetys";
@@ -1858,49 +1656,35 @@ $_LANG['cPanel']['cronJobs'] = "Cron Jobs";
 $_LANG['cPanel']['mysqlDatabases'] = "MySQL Tietokannat";
 $_LANG['cPanel']['phpMyAdmin'] = "phpMyAdmin";
 $_LANG['cPanel']['awstats'] = "Awstats";
-
 $_LANG['cPanel']['createEmailAccount'] = "Luo uusi sähköpostitili";
 $_LANG['cPanel']['usernamePlaceholder'] = "Nimesi";
 $_LANG['cPanel']['passwordPlaceholder'] = "Salasana";
 $_LANG['cPanel']['create'] = "Luo";
 $_LANG['cPanel']['emailAccountCreateSuccess'] = "Sähköpostilin luonti onnistui!";
 $_LANG['cPanel']['emailAccountCreateFailed'] = "Sähköpostitilin luonti epäonnistui: ";
-
 $_LANG['cPanel']['packageNotActive'] = "Tämä webhotellipaketti on";
 $_LANG['cPanel']['statusPendingNotice'] = "You cannot begin using this hosting account until it is activated.";
 $_LANG['cPanel']['statusSuspendedNotice'] = "You cannot continue to use or manage this package until it is reactivated.";
-
 $_LANG['cPanel']['billingOverview'] = "Laskutus";
-
 $_LANG['liveHelp']['chatNow'] = "Keskustele";
-
 $_LANG['quotes'] = "Lainaukset";
-
 $_LANG['productMustBeActiveForModuleCmds'] = "Palvelun tulee olla aktivinen suorittaaksesi tämän toiminnon";
 $_LANG['domainCannotBeManagedUnlessActive'] = "Tämä verkkotunnus ei ole aktiivinen. Verkkotunnusta ei voi hallita ennne kuin sen on aktiivinen.";
-
 $_LANG['actionRequiresAtLeastOneDomainSelected'] = 'Please select at least one domain to perform the selected action on.';
-
 $_LANG['clientAreaProductDownloadsAvailable'] = "The following download items are available for your product/service";
 $_LANG['clientAreaProductAddonsAvailable'] = "Lisäosia saatavilla palveluihisi <a href=\"cart.php?gid=addons\">Tutustu & tilaa tästä lisäpalveluita &raquo;</a>";
 $_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "Suosittelemme käyttämään kaksivaiheista todennuksen antamaa suojausta palvelussamme.";
 $_LANG['clientAreaSecurityNoSecurityQuestions'] = "Setting a security question and answer helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
 $_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "The security question helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
-
 $_LANG['billingAddress'] = "Laskutusosoite";
-
 $_LANG['noPasswordResetWhenLoggedIn'] = "Salasanan palautuspyyntöä ei voida toteuttaa kun olet kirjautuneena sisälle. Ole hyvä ja kirjaudu ulos ensin.";
-
 $_LANG['unableToLoadShoppingCart'] = "Virhe ladatessa ostoskoria. Ole yhteydessä asiakaspalveluun.";
-
 $_LANG['showMenu'] = "Näytä valikko";
 $_LANG['hideMenu'] = "Piilota valikko";
-
 $_LANG['from'] = "From";
 $_LANG['featuredProduct'] = "Suosituimmat";
 $_LANG['shoppingCartProductPerMonth'] = "<span>:price</span>/:countmo";
 $_LANG['shoppingCartProductPerYear'] = "<span>:price</span>/:countyr";
-
 $_LANG['orderForm']['findNewDomain'] = "Etsi sinulle sopiva verkkotunnus. Syötä nimesi tai avainsana tarkistaaksesi saatavuuden.";
 $_LANG['orderForm']['transferExistingDomain'] = "Siirrä nykyinen verkkotunnuksesi meille.";
 $_LANG['orderForm']['www'] = "www.";
@@ -1971,7 +1755,6 @@ $_LANG['orderForm']['includedWithPlans'] = "Sisältyy jokaiseen palveluun";
 $_LANG['orderForm']['whatIsIncluded'] = "What is Included?";
 $_LANG['orderForm']['errorNoProductGroup'] = "Could not load any product groups.";
 $_LANG['orderForm']['errorNoProducts'] = "Product group does not contain any visible products";
-
 $_LANG['cloudSlider']['feature01Title'] = "Maximum Server Uptime";
 $_LANG['cloudSlider']['feature01Description'] = "Server uptime is critical for all businesses - consider it the heart beat of hosting your business. File and databases servers, email and web servers are an indispensable part of most business processes, and downtimes have direct negative effects on productivity, sales, employee and customer satisfaction. That's why ensuring the maximum server uptime is so important to us - we want to make sure your business processes are running healthy so your customers are happy.";
 $_LANG['cloudSlider']['feature01DescriptionTwo'] = "By trusting us with your business needs, we promise you a 99.9% uptime on any services we provide, outside of any standard maintenance we may provide.";
@@ -1982,33 +1765,24 @@ $_LANG['cloudSlider']['feature03Title'] = "Top Tier Security";
 $_LANG['cloudSlider']['feature03Description'] = "Rest easy knowing that we provide 24/7 security monitoring and DDoS protection. You take protecting your customer's data seriously, and so do we. Our security team and safeguards are on the job all day, every day to provide the level of security needed in today's digital age.";
 $_LANG['cloudSlider']['feature03DescriptionTwo'] = "A wide range of security tools are at your disposal, including SSL certificates, firewall configuration, security monitoring services, VPN access, and more.";
 $_LANG['cloudSlider']['selectProductLevel'] = "Select the Perfect Level for You!";
-
 $_LANG['domainChecker.additionalPricingOptions'] = 'Additional Pricing Options For :domain';
-
 $_LANG['orderpaymenttermfree'] = "Ilmainen";
-
 $_LANG['cPanel']['usageStatsBwOverLimit'] = "You have exceeded your bandwidth limit.";
 $_LANG['cPanel']['usageStatsDiskOverLimit'] = "You have exceeded your disk space limit.";
 $_LANG['insufficientstockmessage'] = "We are currently low on stock on certain items. The cart quantities have been adjusted accordingly.";
-
 $_LANG['only'] = "Vain";
 $_LANG['startingat'] = "Alkaen";
-
 $_LANG['yourdomainplaceholder'] = 'example';
 $_LANG['yourtldplaceholder'] = 'com';
-
 $_LANG['subaccountpermsproductsso'] = "Perform Single Sign-On";
-
 $_LANG['sso']['title'] = "Single Sign-On";
 $_LANG['sso']['summary'] = "Third party applications leverage the Single Sign-On functionality to provide direct access to your billing account without you having to re-authenticate.";
 $_LANG['sso']['disablenotice'] = "You may wish to disable this functionality if you provide access to any of your third party applications to users who you do not wish to be able to access your billing account.";
 $_LANG['sso']['enabled'] = "Single Sign-On is currently permitted for your account.";
 $_LANG['sso']['disabled'] = "Single Sign-On is currently disabled for your account.";
 $_LANG['sso']['redirectafterlogin'] = "Sinut uudelleenohjataan kirjautumisen jälkeen";
-
 $_LANG['oauth']['badTwoFactorAuthModule'] = "Bad Two-Factor Auth Module. Please contact support.";
 $_LANG['oauth']['permAccessNameAndEmail'] = "Access your name and email address";
-
 $_LANG['errorButTryAgain'] = "An error occurred.  Please try again.";
 $_LANG['emailSent'] = 'Sähköposti viesti lähetetty';
 $_LANG['verificationKeyExpired'] = 'Sähköpostin vahvistusavain on vanhentunut. Kirjaudu pyytääksesi uuden avaimen.';
@@ -2016,7 +1790,6 @@ $_LANG['emailAddressVerified'] = 'Kiitos vahvistaessasi sähköpostiosoitteesi.'
 $_LANG['emailKeyExpired'] = 'Tämä sähköpostin vahvistusavain on vanhentunut. Kirjaudu pyytääksesi uuden avaimen';
 $_LANG['verifyEmailAddress'] = 'Vahvista käyttäjätunnuksesi vahvisvistamalla sähköpostiosoitteesi';
 $_LANG['resendEmail'] = 'Uudelleenlähetä sähköpostivahvistusviesti';
-
 // Markdown Editor Help
 $_LANG['markdown']['title']= "Markdown-opas";
 $_LANG['markdown']['emphasis']= "Emphasis";
@@ -2052,7 +1825,6 @@ $_LANG['markdown']['displayingCode'] = "Näytä koodi";
 $_LANG['markdown']['spanningMultipleLines'] = "Tämä voi olla moniriveinen...";
 $_LANG['markdown']['saved'] = "tallennettu";
 $_LANG['markdown']['saving'] = "automaattitalennus";
-
 $_LANG['oauth']['authoriseAppToAccess'] = "Authorise :appName<br />to access your account?";
 $_LANG['oauth']['willBeAbleTo'] = "This application will be able to";
 $_LANG['oauth']['authorise'] = "Authorise";
@@ -2065,7 +1837,6 @@ $_LANG['oauth']['redirectDescriptionOne'] = "Redirecting you back to the applica
 $_LANG['oauth']['redirectDescriptionTwo'] = "If your browser doesn't redirect you, please";
 $_LANG['oauth']['redirectDescriptionThree'] = "click here to continue";
 $_LANG['downloadLoginRequiredTagline'] = "Please login to access the requested file download";
-
 $_LANG['orderForm']['year'] = "vuosi";
 $_LANG['orderForm']['years'] = "vuotta";
 $_LANG['orderForm']['domainOrKeyword'] = "Syötä verkkotunnus tai avainsana";
@@ -2089,7 +1860,6 @@ $_LANG['orderForm']['authCodePlaceholder'] = "Syötä siirtovain/välittäjänva
 $_LANG['orderForm']['authCodeTooltip'] = "Aloittaaksesi verkkotunnuksesi siirron, tarvitset verkkotunnuksen siirtovaimen/välittäjänvaihtoavaimen nykyisetä palveluntarjoajaltasi. Tätä voidaan kutsua siirtoavaimeksi/välittäjänvaihtoavaimeksis/EPP-avaimeksi/Transfer Key:ksi.";
 $_LANG['orderForm']['help'] = "Apua";
 $_LANG['orderForm']['required'] = "Vaadittu";
-
 $_LANG['orderForm']['checkingAvailability'] = 'Tarkista saatavuus';
 $_LANG['orderForm']['verifyingTransferEligibility'] = 'Tarkistetaan siirtokelpoisuutta';
 $_LANG['orderForm']['verifyingDomain'] = 'Vahvistetaan verkkotunnuksen valintaa';
@@ -2103,9 +1873,7 @@ $_LANG['orderForm']['domainInvalid'] = 'Virheellinen verkkotunnus';
 $_LANG['orderForm']['domainInvalidCheckEntry'] = 'Please check your entry and try again.';
 $_LANG['orderForm']['domainPriceRegisterLabel'] = 'Jatka verkkotunnuksen rekisteröintiä';
 $_LANG['orderForm']['domainPriceTransferLabel'] = 'Siirrä ja lisää voimassaoloaikaa 1 vuodella* verkkotunnuksellesi';
-
 $_LANG['change'] = "Muuta";
-
 $_LANG['filemanagement']['nofileuploaded'] = "No file uploaded.";
 $_LANG['filemanagement']['invalidname'] = "Valid filenames contain only alpha-numeric, dot, hyphen and underscore characters.";
 $_LANG['filemanagement']['couldNotSaveFile'] = "Could not save uploaded file.";
@@ -2113,39 +1881,30 @@ $_LANG['filemanagement']['checkPermissions'] = "Please check permissions.";
 $_LANG['filemanagement']['checkAvailableDiskSpace'] = "Please check available disk space.";
 $_LANG['filemanagement']['fileAlreadyExists'] = "File already exists.";
 $_LANG['filemanagement']['noUniqueName'] = "Unable to find a unique filename.";
-
 $_LANG['cartSimpleCaptcha'] = "Syötä alla oleva koodi";
-
 $_LANG['clientHomePanels']['showingRecent100'] = "Showing the most recent 100 records";
 $_LANG['orderForm']['domainLetterOrNumber'] = "Verkkotunnus tulee alkaa kirjaimella tai numerolla";
 $_LANG['orderForm']['domainLengthRequirements'] = " ja olla <span class=\"min-length\"></span> ja <span class=\"max-length\"></span> merkkiä pitkä";
-
 $_LANG['clientareatransferredaway'] = "Siirretty pois";
 $_LANG['clientareacompleted'] = "Valmis";
 $_LANG['domainContactUs'] = "Ota yhteyttä";
-
 $_LANG['orderForm']['shortPerYear'] = "/:yearsyr";
 $_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
-
 $_LANG['domainCheckerSalesGroup']['sale'] = "Tarjouksessa";
 $_LANG['domainCheckerSalesGroup']['hot'] = "HOT";
 $_LANG['domainCheckerSalesGroup']['new'] = "Uusi";
-
 $_LANG['pricing']['browseExtByCategory'] = "Hae verkkotunnuspäätettä kategorian mukaan";
 $_LANG['pricing']['register'] = "Rekisteröinti";
 $_LANG['pricing']['transfer'] = "Siirto";
 $_LANG['pricing']['renewal'] = "Uusinta";
 $_LANG['pricing']['selectExtCategory'] = "Valitse kategoria yllä.";
 $_LANG['pricing']['noExtensionsDefined'] = "Päätettä ei ole saatavilla";
-
 $_LANG['navStore'] = "Kauppa";
 $_LANG['navBrowseProductsServices'] = "Selaa";
-
 $_LANG['navWebsiteSecurity'] = "Verkkosivut & Suojaus";
 $_LANG['navMarketConnectService']['symantec'] = "SSL Sertifikaatit";
 $_LANG['navMarketConnectService']['weebly'] = "Website Builder";
 $_LANG['navMarketConnectService']['spamexperts'] = "Sähköpostipalvelut";
-
 $_LANG['store']['emailServices']['title'] = "E-mail Services";
 $_LANG['store']['ssl']['title'] = "SSL Certificates";
 $_LANG['store']['ssl']['dv']['title'] = "Domain Validated SSL";
@@ -2154,31 +1913,24 @@ $_LANG['store']['ssl']['ev']['title'] = "Extended Validation SSL";
 $_LANG['store']['ssl']['wildcard']['title'] = "Wildcard SSL";
 $_LANG['store']['websiteBuilder']['title'] = "Website Builder";
 $_LANG['store']['configure']['configureProduct'] = "Configure Product";
-
 $_LANG['store']['ssl']['dv']['tagline'] = "Secure your website in just a few minutes!";
 $_LANG['store']['ssl']['dv']['descriptionTitle'] = "What is Standard DV SSL?";
 $_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>Domain Validation certificates offer an economical and quick way to implement SSL to your website. Domain Validated certificates verify you own the domain, but do not perform any additional organization level validation.</p><p>Domain Validated certificates are ideal for personal websites, blogs and social media, or any sites that are not transmitting private and confidential information.  A Domain Validated certificate activates the browser padlock and enables the use of https to assure your website visitors and customers that you take their privacy seriously.</p>";
-
 $_LANG['store']['ssl']['ov']['tagline'] = "High assurance SSL shows website visitors your authenticated identity";
 $_LANG['store']['ssl']['ov']['descriptionTitle'] = "What is Organization Validation SSL?";
 $_LANG['store']['ssl']['ov']['descriptionContent'] = "<p>Organization Validated SSL Certificates provide instant identity confirmation and strong SSL protection for your website and business.</p><p>OV SSL is an organization validated certificate that gives your website a step up in credibility over domain validated SSL Certificates. It activates the browser padlock and https, shows your corporate identity, and assures your customers that you take security very seriously. Site visitors can verify that the website is operated by a legitimate company and is not an imposter site.</p>";
-
 $_LANG['store']['ssl']['ev']['tagline'] = "Activate the green address bar for the highest trust and conversions";
 $_LANG['store']['ssl']['ev']['descriptionTitle'] = "What is Extended Validation SSL?";
 $_LANG['store']['ssl']['ev']['descriptionContent'] = "<p>EV SSL is an Extended Validation Certificate, the highest class of SSL available today and gives more credibility and trust to your website compared to using an organization or domain validated SSL Certificate.</p><p>Extended Validation SSL activates the green address bar and displays your company or organization name in the browser address bar. These prominent visual security indicators let visitors know that extra steps were taken to confirm the site they're visiting, increasing user trust in your website and its credibility – this is why most large companies and organizations choose EV certificates.</p>";
-
 $_LANG['store']['ssl']['wildcard']['tagline'] = "Secure unlimited subdomains on a single certificate.";
 $_LANG['store']['ssl']['wildcard']['descriptionTitle'] = "What is a Wildcard SSL Certificate?";
 $_LANG['store']['ssl']['wildcard']['descriptionContent'] = "<p>Wildcard SSL allows you to secure an unlimited number of subdomains on a single certificate. It’s a great solution for anyone who hosts or manages multiple sites or pages that exist on the same domain. The one-time cost of the certificate covers you for additional subdomains you may add in the future.</p><p>Unlike a standard SSL Certificate that is issued to a single Fully Qualified Domain Name only, e.g. www.yourdomain.com, which means it can only be used to secure the exact domain to which it has been issued, a Wildcard SSL Certificate is issued to *.yourdomain.com, where the asterisk represents all possible subdomains.</p><p>Wildcard SSL is an option available for DV and OV SSL Certificates.</p>";
-
 $_LANG['store']['websiteBuilder']['headline'] = "Building a Website Has Never Been Easier";
 $_LANG['store']['websiteBuilder']['tagline'] = "Create the perfect site with powerful drag and drop tools";
 $_LANG['store']['websiteBuilder']['introduction'] = "Weebly’s drag and drop website builder makes it easy to create a powerful, professional website without any technical skills. Over 40 million entrepreneurs and small businesses have already used Weebly to build their online presence with a website, blog or store.";
-
 $_LANG['store']['emailServices']['headline'] = "Email Security, Built for You";
 $_LANG['store']['emailServices']['tagline'] = "Take back control of your inbox";
 $_LANG['store']['emailServices']['blockSpamHeadline'] = "Block nearly 100% of viruses, malware and spam before they ever reach your inbox";
-
 $_LANG['pricingCycleShort']['monthly'] = "kk";
 $_LANG['pricingCycleShort']['quarterly'] = "3kk";
 $_LANG['pricingCycleShort']['semiannually'] = "6kk";
@@ -2191,21 +1943,15 @@ $_LANG['pricingCycleLong']['semiannually'] = "6 kuukautta";
 $_LANG['pricingCycleLong']['annually'] = "1 vuosi";
 $_LANG['pricingCycleLong']['biennially'] = "2 vuotta";
 $_LANG['pricingCycleLong']['triennially'] = "3 vuotta";
-
 $_LANG['navManageSsl'] = "Hallitse SSL-varmenteita";
-
 $_LANG['invoicesPaymentPending'] = "Maksua odotetaan";
-
 $_LANG['ssl']['changeApproverEmail'] = "Vaihda vahvistussähköpostiosoitetta";
 $_LANG['ssl']['reissueCertificate'] = "Reissue Certificate";
 $_LANG['ssl']['retrieveCertificate'] = "Retrieve Certificate";
-
 $_LANG['upgradeCredit'] = "Upgrade Credit";
 $_LANG['upgradeCreditDescription'] = "Calculation based on :daysRemaining unused days of :totalDays totals days in the current billing cycle.";
-
 $_LANG['orderForm']['domainExtensionTransferNotSupported'] = "Verkkotunnusta ei voi siirtää meille tällä hetkellä. Kokeile toista verkkotunnusta.";
 $_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "Verkkotunnus ei ole siirtokelpoinen. Kokeile toista verkkotunnusta.";
-
 $_LANG['remoteAuthn']['success'] = 'Onnistui!';
 $_LANG['remoteAuthn']['errorExclamation'] = 'Virhe!';
 $_LANG['remoteAuthn']['error'] = 'Virhe';
@@ -2237,33 +1983,25 @@ $_LANG['remoteAuthn']['noLinkedAccounts'] = 'Yhdistettyjä käyttäjiä ei löyt
 $_LANG['remoteAuthn']['signInWith'] = 'Kirjaudu :provider';
 $_LANG['remoteAuthn']['connectWith'] = 'Yhdistä :provider';
 $_LANG['remoteAuthn']['signUpWith'] = 'Rekisteröidy :provider';
-
 $_LANG['unlink'] = "Unlink";
-
 $_LANG['invoicePaymentSuccessAwaitingNotify'] = "Thank you for completing the payment process. We are awaiting notification to confirm the payment you just made. We will send you an email confirmation as soon as this has been received.";
-
 $_LANG['errorPage']['404']['title'] = "Hups!";
 $_LANG['errorPage']['404']['subtitle'] = "Sivua ei löytynyt";
 $_LANG['errorPage']['404']['description'] = "Yritä hakea sivustoasi navigointivalikon avulla";
 $_LANG['errorPage']['404']['home'] = "Etusivu";
 $_LANG['errorPage']['404']['submitTicket'] = "Ota yhteyttä";
-
 $_LANG['creditCard']['removeDescription'] = "Haluatko varmasti poistaa maksukorttisi tiedot?";
-
 $_LANG['marketConnect']['weebly']['ftpHost'] = "FTP Isäntä";
 $_LANG['marketConnect']['weebly']['ftpUsername'] = "FTP Käyttäjätunnus";
 $_LANG['marketConnect']['weebly']['ftpPassword'] = "FTP Salasana";
 $_LANG['marketConnect']['weebly']['ftpPath'] = "FTP Poku";
 $_LANG['marketConnect']['weebly']['updateFtp'] = "Päivitä FTP-tunnukset";
 $_LANG['marketConnect']['weebly']['manage'] = "Kirjaudu Weebly Site Builder";
-
 $_LANG['domainChecker']['contactSupport'] = "Ota yhteyttä asiakaspalveluun";
-
 $_LANG['cart']['availableCreditBalance'] = "Saldon määrä :amount.";
 $_LANG['cart']['applyCreditAmount'] = "Käytän <span>:amount</span> saldoa ja maksan ylijäävän seuraavalla maksutavalla.";
 $_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "Käytän <span>:amount</span> saldoa tässä tilauksessa.";
 $_LANG['cart']['applyCreditSkip'] = "En käytä saldoa tässä tilauksessa. Käytän seuraavaa maksutapaa.";
-
 $_LANG['dateTime']['monday'] = "maanantai";
 $_LANG['dateTime']['tuesday'] = "tiistai";
 $_LANG['dateTime']['wednesday'] = "keskiviikko";
@@ -2310,12 +2048,9 @@ $_LANG['dateTime']['AM'] = "AM";
 $_LANG['dateTime']['PM'] = "PM";
 $_LANG['dateTime']['am'] = "am";
 $_LANG['dateTime']['pm'] = "pm";
-
 $_LANG['emailMarketing']['joinOurMailingList'] = "Liity sähköpostilistalle";
-
 $_LANG['edit'] = "Muokkaa";
 $_LANG['thankYou'] = "Kiitos";
-
 $_LANG['domainGracePeriodFeeInvoiceItem'] = "Verkkotunnuksen uusintamaksu suoja-ajalla verkkotunnukselle :domainName";
 $_LANG['domainRedemptionPeriodFeeInvoiceItem'] = "Verkkotunnuksen uusintamaksu lunastusajalla verkkotunnukselleDomain :domainName";
 $_LANG['gracePeriod'] = "Suoja-aika";
@@ -2337,35 +2072,26 @@ $_LANG['domainRenewal']['noDomains'] = "Sinulla ei ole verkkotunnusta joita vois
 $_LANG['domainRenewal']['showingDomains'] = "Näytetään :showing / :totalCount verkkotunnusta";
 $_LANG['domainRenewal']['showAll'] = "Näytä kaikki";
 $_LANG['domainRenewal']['maximumAdvanceRenewal'] = "Maximum Advance Renewal is :days Day(s)";
-
 $_LANG['navMarketConnectService']['sitelock'] = "Verkkosivun suojaus";
 $_LANG['store']['sitelock']['title'] = "SiteLock Verkkosivun suojaus";
 $_LANG['store']['sitelock']['tagline'] = "Automatically scan your website for malware and protect online reputation";
 $_LANG['store']['sitelock']['manageService'] = "Manage your SiteLock Service";
 $_LANG['store']['sitelock']['cartShortDescription'] = "SiteLock provides a range of features designed to protect both your website and your business’ reputation.";
-
 $_LANG['learnmore'] = "Näytä lisää";
 $_LANG['category'] = "Kategoria";
 $_LANG['changeCurrency'] = "Vaihda valuuttaa";
-
 $_LANG['store']['ssl']['competitiveUpgrade'] = "Competitive Upgrade";
 $_LANG['store']['ssl']['competitiveUpgradeBannerMsg'] = "Your domain <em>:domain</em> has been successfully validated. Please choose a certificate type to continue and complete the checkout process.";
 $_LANG['store']['ssl']['competitiveUpgradeQualified'] = "Qualified for Competitive Upgrade";
-
 $_LANG['dismiss'] = "Piilota";
-
 $_LANG['store']['emailServices']['manageService'] = "Kirjaudu SpamExperts Control Panel";
-
 $_LANG['noDomain'] = "Ei verkkotunnusta";
-
 $_LANG['upgradeService']['serviceBeingUpgraded'] = "Palvelua päivitetään";
 $_LANG['upgradeService']['chooseNew'] = "Valitse uusi tuote/palvelu";
 $_LANG['upgradeService']['currentProduct'] = "Nykyinen palvelusi";
 $_LANG['upgradeService']['recommended'] = "Suosittu";
 $_LANG['upgradeService']['select'] = "Valitse";
-
 $_LANG['feeds']['itemsInBasket'] = "Sinulla on <b>:count</b> tuotetta ostoskorissa";
-
 $_LANG['validation']['accepted'] = "The :attribute must be accepted.";
 $_LANG['validation']['active_url'] = "The :attribute is not a valid URL.";
 $_LANG['validation']['after'] = "The :attribute must be a date after :date.";
@@ -2422,43 +2148,29 @@ $_LANG['validation']['string'] = "The :attribute must be a string.";
 $_LANG['validation']['timezone'] = "The :attribute must be a valid zone.";
 $_LANG['validation']['unique'] = "The :attribute has already been taken.";
 $_LANG['validation']['url'] = "The :attribute format is invalid.";
-
 $_LANG['orderErrorServerHostnameInvalid'] = "Palvelimen isäntänimi on virheellinen.";
 $_LANG['orderErrorServerNameserversInvalid'] = "Nimipalvelimen etuliite on virheellinen.";
-
 $_LANG['checkAll'] = "Valitse kaikki";
 $_LANG['uncheckAll'] = "Poista valinnat";
-
 $_LANG['maxmind']['manualReview'] = "Your order has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
-
 $_LANG['nodomain'] = "Verkkotunnusta ei ole määritetty";
-
 $_LANG['store']['ssl']['cartTitle'] = "Suojaa sivustosi SSL:lläL";
 $_LANG['store']['ssl']['cartShortDescription'] = "Add SSL to your web hosting to give visitors confidence that your website is safe and secure and help build trust.";
-
 $_LANG['store']['weebly']['cartTitle'] = "Powerful Website Builder";
 $_LANG['store']['weebly']['cartShortDescription'] = "Add Weebly's drag and drop website builder to your hosting to allow you to create an awesome looking website, store or blog.";
-
 $_LANG['store']['spamexperts']['cartTitle'] = "SpamExperts Email Security";
 $_LANG['store']['spamexperts']['cartShortDescription'] = "Add professional email security and archiving to your domain to protect and secure your email against attacks and malware.";
-
 $_LANG['store']['sitelock']['cartTitle'] = "SiteLock Website Security";
-
 $_LANG['store']['ssl']['promo']['sidebar']['title'] = "Add SSL to your website";
 $_LANG['store']['ssl']['promo']['sidebar']['body'] = "Activate the padlock icon and protect user privacy";
-
 $_LANG['store']['weebly']['promo']['sidebar']['title'] = "Powerful Site Builder";
 $_LANG['store']['weebly']['promo']['sidebar']['body'] = "Create a stunning website faster than ever with Weebly";
-
 $_LANG['store']['spamexperts']['promo']['sidebar']['title'] = "Roskapostisuodatin";
 $_LANG['store']['spamexperts']['promo']['sidebar']['body'] = "Stop spam in its tracks with professional spam filtering";
-
 $_LANG['store']['sitelock']['promo']['sidebar']['title'] = "Haittaohjelmasuojaus";
 $_LANG['store']['sitelock']['promo']['sidebar']['body'] = "Automatically find malware and protect your online reputation";
-
 $_LANG['store']['recommendedForYou'] = "Suositeltu sinulle";
 $_LANG['store']['lastChance'] = "Viimeinen mahdollisuus";
-
 $_LANG['domains']['importantReminder'] = "Tärkeä muistutus";
 $_LANG['domains']['irtpNotice'] = "Tekemäsi muutos ottaa käyttöön IRTP-siirtolukon tällä verkkotunnuksella.";
 $_LANG['domains']['optOut'] = "Poista siirtolukko (jos saatavilla))";
@@ -2479,10 +2191,8 @@ $_LANG['domains']['modifyPending'] = "Vahvistus vaaditaan";
 $_LANG['domains']['changePending'] = "Muutospyyntösi vaatii sähköpostilla tapahtuvan vahvistuksen. Omistajuuden vahvistusviesti on lähetetty sähkpostitse :email. Klikkaa sähköpostiviestissä olevaa linkkiä vahvistaaksesi muutoksen.";
 $_LANG['domains']['changePendingDate'] = "Muutospyyntösi vaatii sähköpostilla tapahtuvan vahvistuksen. Omistajuuden vahvistusviesti on lähetetty sähkpostitse  :email. Klikkaa sähköpostiviestissä olevaa linkkiä :days menneessä hyväksäksesi muutoksen.";
 $_LANG['domains']['changePendingFormRequired'] = "Pyyntösi Registerant yhteystiedon päivityksessä on lähetetty. Suorittaaksesi muutoksen, sinun tulee täyttää <strong>Change of Registrant</strong> lomake. Täytä lomake täältä :form, ohjeiden mukaisesti ja palauta lomake asiakaspalveluun";
-
 $_LANG['getStartedNow'] = "Aloita nyt";
 $_LANG['notificationsnew'] = "UUSI";
-
 $_LANG['store']['websiteBuilder']['tab']['overview'] = "Yleiskatsaus";
 $_LANG['store']['websiteBuilder']['tab']['features'] = "Ominaisuudet";
 $_LANG['store']['websiteBuilder']['tab']['pricing'] = "Hinnasto";
@@ -2565,11 +2275,9 @@ $_LANG['store']['websiteBuilder']['upgrade']['to'] = "Upgrade to :product for :a
 $_LANG['store']['websiteBuilder']['upgrade']['noPlans'] = "No active Weebly plans found";
 $_LANG['store']['websiteBuilder']['upgrade']['loggedInAs'] = "You are currently logged in as :email";
 $_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "Logout/switch user";
-
 $_LANG['tax']['taxLabel'] = "Tax ID";
 $_LANG['tax']['vatLabel'] = "ALV-numero";
 $_LANG['tax']['errorInvalid'] = "Annettu :taxLabel on virheellinen";
-
 $_LANG['fraud']['checkConfiguration'] = "An error occurred with the Fraud Check. Please contact support.";
 $_LANG['fraud']['title'] = "Fraud Check";
 $_LANG['fraud']['error'] = "Virhe";
@@ -2578,7 +2286,6 @@ $_LANG['fraud']['highFraudRiskScore'] = "Your order has been flagged as potentia
 $_LANG['fraud']['countryMismatch'] = "The country of your IP address did not match the billing address country you entered so we cannot accept your order";
 $_LANG['fraud']['highRiskCountry'] = "Unfortunately, we are unable to accept your order as there has been a lot of fraudulent activity from your country. If you want to arrange an alternative means of payment, please contact us.";
 $_LANG['fraud']['anonymousProxy'] = "We do not allow orders to be placed using an Anonymous Proxy";
-
 $_LANG['navMarketConnectService']['codeguard'] = "Website Backup";
 $_LANG['store']['codeguard']['cartTitle'] = "CodeGuard Website Backup";
 $_LANG['store']['codeguard']['cartShortDescription'] = "Protect your website against data loss and attacks with daily automated backups and one-click automatic restore.";
@@ -2635,12 +2342,9 @@ $_LANG['store']['codeGuard']['faq']['q8'] = "What is File Change Alert Monitorin
 $_LANG['store']['codeGuard']['faq']['a8'] = "CodeGuard can monitor and notify you by email when your website changes to alert you to new threats and malware.";
 $_LANG['store']['codeGuard']['faq']['q9'] = "What happens if my site gets infected?";
 $_LANG['store']['codeGuard']['faq']['a9'] = "With CodeGuard's daily snapshots, if your website gets attacked, you can restore to a previous uninfected version at any time.";
-
 $_LANG['store']['codeguard']['promo']['sidebar']['title'] = "Add Website Backup";
 $_LANG['store']['codeguard']['promo']['sidebar']['body'] = "Protect your website with daily automated backups";
-
 $_LANG['marketConnect']['codeguard']['manage'] = "Login to CodeGuard Control Panel";
-
 $_LANG['sslState']['sslInactive'] = "SSL-varmennetta ei tunnistettu. Valitse tästä tilataksesi SSL-varmenteen";
 $_LANG['sslState']['sslActive'] = "Voimassaoleva SSL-varmenne käytössä. Vanhenee :expiry";
 $_LANG['sslState']['sslUnknown'] = "Virhe tarkistaessa SSL-varmenteen tilaa";
@@ -2652,11 +2356,7 @@ $_LANG['sslState']['startDate'] = "SSL Aloituspäivä";
 $_LANG['sslState']['expiryDate'] = "SSL Vanhentumispäivä";
 $_LANG['sslState']['issuerName'] = "SSL Myöntäjä";
 $_LANG['sslState']['sslStatus'] = "SSL Tila";
-
-
-
 //Ficora EPP Pluginiin käännökset
-
 $_LANG['ficora_registrant_type'] = "Rekisteröijän tyyppi";
 $_LANG['Finnish Private Person'] = "Suomalainen yksityishenkilö";
 $_LANG['Foreign Private Person'] = "Ulkomaalainen yksityishenkilö";
@@ -2668,23 +2368,17 @@ $_LANG['Political Party'] = 'Puolue';
 $_LANG['Township'] = 'Kunta';
 $_LANG['Government'] = 'Valtio';
 $_LANG['Public Community'] = 'Yhteisö';
-
 $_LANG['ficora_fi_idnumber'] = 'Henkilötunnus <sup style="cursor:help;" title="Traficom vaatii henkilötunnuksen Suomen kansalaiselta verkkotunnuksen rekisteröimiseen. Ulkomaalaisten tulee täyttää syntymäpäivä henkilötunnuksen sijaan">mikä tämä on?</sup>';
 $_LANG['ficora_fi_registernumber'] = 'Y-Tunnus <sup style="cursor:help;" title="Vain yrityksille; yrityksen Y-tunnus tai ulkomaalaisen yrityksen tapauksessa yrityksen EU VAT -tunnus">mikä tämä on?</sup>';
 $_LANG['ficora_fi_birthdate'] = 'Syntymäaika (Käytä muotoa YYYY-KK-PP) <sup style="cursor:help;" title="Vaaditaan ulkomaalaiselta henkilöiltä, jotka eivät asu Suomessa">mikä tämä on?</sup>';
-
 $_LANG['ID number is required for Finnish residents'] = "Henkilötunnus vaadittu Suomessa asuvalle";
 $_LANG['Birth date is required for foreign private persons'] = "Syntymäaika on vaadittu ulkomaalaisilta henkilöiltä";
 $_LANG['VAT/Register number is a required field for corporate bodies'] = "Y-tunnus on vaadittu";
 $_LANG['Registrant type is missing'] = "Rekisteröijän tyyppi puuttuu";
-
-//Domain Registerar sivun taulu
 
 $_LANG['domainTldCategory']['Popular'] = "Suosituimmat";
 $_LANG['domainTldCategory']['Geography'] = "Maantieteelliset";
 $_LANG['domainTldCategory']['gTLD'] = "Yleiset";
 $_LANG['domainTldCategory']['ccTLD'] = "Maakoodit";
 $_LANG['domainTldCategory']['Other'] = "Muut";
-
 $_LANG['orderForm']['shortPerYear'] = "/v";
-
