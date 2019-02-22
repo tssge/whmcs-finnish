@@ -1882,7 +1882,7 @@ $_LANG['filemanagement']['checkAvailableDiskSpace'] = "Please check available di
 $_LANG['filemanagement']['fileAlreadyExists'] = "File already exists.";
 $_LANG['filemanagement']['noUniqueName'] = "Unable to find a unique filename.";
 $_LANG['cartSimpleCaptcha'] = "Syötä alla oleva koodi";
-$_LANG['clientHomePanels']['showingRecent100'] = "Showing the most recent 100 records";
+$_LANG['clientHomePanels']['showingRecent100'] = "Näytetään viimeiset 100 osumaa";
 $_LANG['orderForm']['domainLetterOrNumber'] = "Verkkotunnus tulee alkaa kirjaimella tai numerolla";
 $_LANG['orderForm']['domainLengthRequirements'] = " ja olla <span class=\"min-length\"></span> ja <span class=\"max-length\"></span> merkkiä pitkä";
 $_LANG['clientareatransferredaway'] = "Siirretty pois";
