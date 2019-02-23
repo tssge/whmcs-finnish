@@ -1144,8 +1144,8 @@ $_LANG['domainmassrenew'] = "Uusi verkkotunnuksia";
 # reCAPTCHA
 
 $_LANG['captchatitle'] = "Spam Bot Verification";
-$_LANG['captchaverify'] = "Please enter the characters you see in the image below into the text box provided. This is required to prevent automated submissions.";
-$_LANG['captchaverifyincorrect'] = "The characters you entered didn't match the image shown. Please try again.";
+$_LANG['captchaverify'] = "Ole hyvä ja syötä alle kuvassa näkyvät merkit. Tämä on vaadittu estämään koneellisia syöttäjä.";
+$_LANG['captchaverifyincorrect'] = "Syöttämäsi koodi ei täsmää. Ole hyvä ja yritä uudelleen.";
 $_LANG['googleRecaptchaIncorrect'] = "Please complete the captcha and try again.";
 $_LANG['recaptcha-invalid-site-private-key'] = "An error occurred, please contact support (error code: cap1)";
 $_LANG['recaptcha-invalid-request-cookie'] = "An error occurred, please try again (error code: cap2)";
@@ -1970,7 +1970,7 @@ $_LANG['orderForm']['totals'] = "Yhteensä";
 $_LANG['orderForm']['includedWithPlans'] = "Sisältyy jokaiseen palveluun";
 $_LANG['orderForm']['whatIsIncluded'] = "What is Included?";
 $_LANG['orderForm']['errorNoProductGroup'] = "Could not load any product groups.";
-$_LANG['orderForm']['errorNoProducts'] = "Product group does not contain any visible products";
+$_LANG['orderForm']['errorNoProducts'] = "Tuoteryhmässä ei ole tuotteutia";
 
 $_LANG['cloudSlider']['feature01Title'] = "Maximum Server Uptime";
 $_LANG['cloudSlider']['feature01Description'] = "Server uptime is critical for all businesses - consider it the heart beat of hosting your business. File and databases servers, email and web servers are an indispensable part of most business processes, and downtimes have direct negative effects on productivity, sales, employee and customer satisfaction. That's why ensuring the maximum server uptime is so important to us - we want to make sure your business processes are running healthy so your customers are happy.";
@@ -2114,7 +2114,7 @@ $_LANG['filemanagement']['checkAvailableDiskSpace'] = "Please check available di
 $_LANG['filemanagement']['fileAlreadyExists'] = "File already exists.";
 $_LANG['filemanagement']['noUniqueName'] = "Unable to find a unique filename.";
 
-$_LANG['cartSimpleCaptcha'] = "Syötä alla oleva koodi";
+$_LANG['cartSimpleCaptcha'] = "Ole hyvä ja syötä alla näkyvä koodi";
 
 $_LANG['clientHomePanels']['showingRecent100'] = "Näytetään viimeiset 100 osumaa";
 $_LANG['orderForm']['domainLetterOrNumber'] = "Verkkotunnus tulee alkaa kirjaimella tai numerolla";
