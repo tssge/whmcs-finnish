@@ -849,13 +849,13 @@ $_LANG['affiliatesconversionrate'] = "Conversion Rate";
 
 $_LANG['configoptionqtyminmax'] = "%s has a minimum requirement of %s and maximum of %s";
 
-$_LANG['creditcardnostore'] = "Tick this box if you do NOT want us to store your credit card details for recurring billing";
+$_LANG['creditcardnostore'] = "Valitse tämä mikäli et halua maksukorttisi tietoja tallentaa toistuvia maksuja varten";
 $_LANG['creditcarddelete'] = "Poista tallennettu maksukortti";
-$_LANG['creditcarddeleteconfirmation'] = "The stored credit card details have now been removed from your account";
-$_LANG['creditcardupdatenotpossible'] = "Credit Card Details cannot be updated at the current time. Please try again later.";
+$_LANG['creditcarddeleteconfirmation'] = "Tallennettu maksukortin tiedot on nyt poistettu käyttäjätililtäsi";
+$_LANG['creditcardupdatenotpossible'] = "Maksukortin tietoja ei pystytty päivittämään. Ole hyvä ja yritä uudelleen.";
 
-$_LANG['invoicepaymentsuccessconfirmation'] = "Thank You! Your payment was successful.";
-$_LANG['invoicepaymentfailedconfirmation'] = "Unfortunately your payment attempt was not successful.<br />Please try again or contact support.";
+$_LANG['invoicepaymentsuccessconfirmation'] = "Maksusi onnistui.";
+$_LANG['invoicepaymentfailedconfirmation'] = "Valitettavasti maksusi epäonnistui.<br />Ole hyvä ja yritä uudelleen tai ota yhteyttä asiakaspalveluun.";
 
 # Version 4.2
 
@@ -2029,7 +2029,7 @@ $_LANG['markdown']['mediumHeader']= "Keskikokoinen otsikko";
 $_LANG['markdown']['smallHeader']= "Pieni otsikko";
 $_LANG['markdown']['tinyHeader']= "Pienin otsikko";
 $_LANG['markdown']['lists']= "Listat";
-$_LANG['markdown']['genericListItem']= "Generic lista";
+$_LANG['markdown']['genericListItem']= "Generinen lista";
 $_LANG['markdown']['numberedListItem']= "Numeroitu lista";
 $_LANG['markdown']['links']= "Linkki";
 $_LANG['markdown']['textToDisplay']= "Näkyvä teksti";
@@ -2051,7 +2051,7 @@ $_LANG['markdown']['female'] = "Nainen";
 $_LANG['markdown']['displayingCode'] = "Näytä koodi";
 $_LANG['markdown']['spanningMultipleLines'] = "Tämä voi olla moniriveinen...";
 $_LANG['markdown']['saved'] = "tallennettu";
-$_LANG['markdown']['saving'] = "automaattitalennus";
+$_LANG['markdown']['saving'] = "automaattitallennus";
 
 $_LANG['oauth']['authoriseAppToAccess'] = "Authorise :appName<br />to access your account?";
 $_LANG['oauth']['willBeAbleTo'] = "This application will be able to";
@@ -2060,7 +2060,7 @@ $_LANG['oauth']['currentlyLoggedInAs'] = "Olet nyt kirjautuneena :firstName :las
 $_LANG['oauth']['notYou'] = "Not You?";
 $_LANG['oauth']['returnToApp'] = "Palaa :appName";
 $_LANG['oauth']['copyrightFooter'] = "Copyright &copy; :dateYear :companyName. Kaikki oikeudet pidätetään.";
-$_LANG['oauth']['loginToGrantApp'] = "Login to grant :appName<br />access to your account";
+$_LANG['oauth']['loginToGrantApp'] = "Salli :appName<br />pääsyn käyttäjätilillesi";
 $_LANG['oauth']['redirectDescriptionOne'] = "Redirecting you back to the application. This may take a few moments.";
 $_LANG['oauth']['redirectDescriptionTwo'] = "If your browser doesn't redirect you, please";
 $_LANG['oauth']['redirectDescriptionThree'] = "click here to continue";
