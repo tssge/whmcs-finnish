@@ -827,8 +827,8 @@ $_ADMINLANG['billing']['transactionslist'] = "Maksutapahtumat";
 $_ADMINLANG['billing']['income'] = "Income";
 $_ADMINLANG['billing']['incomeprojection'] = "Income Projection";
 $_ADMINLANG['billing']['incometoday'] = "Tänään";
-$_ADMINLANG['billing']['incomethismonth'] = "Last 30 Days";
-$_ADMINLANG['billing']['incomethisyear'] = "Last 1 Year";
+$_ADMINLANG['billing']['incomethismonth'] = "Viimeiset 30 päivää";
+$_ADMINLANG['billing']['incomethisyear'] = "Viimeinen vuosi";
 $_ADMINLANG['billing']['annualestimate'] = "Est. Annual";
 $_ADMINLANG['billing']['offlinecc'] = "Offline CC Processing";
 $_ADMINLANG['billing']['gatewaylog'] = "Gateway Log";
@@ -1431,7 +1431,7 @@ $_ADMINLANG['utilities']['whois'] = "WHOIS Lookup";
 $_ADMINLANG['utilities']['domainresolver'] = "Domain Resolver";
 $_ADMINLANG['utilities']['integrationcode'] = "Integration Code";
 $_ADMINLANG['utilities']['cpanelimport'] = "cPanel/WHM Import";
-$_ADMINLANG['utilities']['system'] = "System";
+$_ADMINLANG['utilities']['system'] = "Järjestelmä";
 $_ADMINLANG['utilities']['automationStatus'] = "Automaation tila";
 $_ADMINLANG['utilities']['dbstatus'] = "Database Status";
 $_ADMINLANG['utilities']['syscleanup'] = "System Cleanup";
@@ -2003,12 +2003,12 @@ $_ADMINLANG['calendar']['startDateTime'] = "Start Date/Time";
 $_ADMINLANG['calendar']['endDateTime'] = "End Date/Time";
 $_ADMINLANG['calendar']['allDay'] = "All Day";
 $_ADMINLANG['calendar']['recurEvery'] = "Recur Every";
-$_ADMINLANG['calendar']['days'] = "Days";
-$_ADMINLANG['calendar']['weeks'] = "Weeks";
-$_ADMINLANG['calendar']['months'] = "Months";
-$_ADMINLANG['calendar']['years'] = "Years";
-$_ADMINLANG['calendar']['times'] = "times";
-$_ADMINLANG['calendar']['zeroUnlimited'] = "0 = unlimited";
+$_ADMINLANG['calendar']['days'] = "Päivää";
+$_ADMINLANG['calendar']['weeks'] = "Viikkoa";
+$_ADMINLANG['calendar']['months'] = "Kuukausia";
+$_ADMINLANG['calendar']['years'] = "Vuosia";
+$_ADMINLANG['calendar']['times'] = "Kertaa";
+$_ADMINLANG['calendar']['zeroUnlimited'] = "0 = rajaton";
 $_ADMINLANG['calendar']['deleteRecurringEvent'] = "Delete Recurring Event";
 
 # Promotions
@@ -2026,7 +2026,7 @@ $_ADMINLANG['months']['august'] = "elokuu";
 $_ADMINLANG['months']['september'] = "syyskuu";
 $_ADMINLANG['months']['october'] = "lokakuu";
 $_ADMINLANG['months']['november'] = "marraskuu";
-$_ADMINLANG['months']['december'] = "joulkuu";
+$_ADMINLANG['months']['december'] = "joulukuu";
 
 # Day Names
 $_ADMINLANG['days']['m'] = "M";
