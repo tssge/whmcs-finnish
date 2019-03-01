@@ -241,7 +241,7 @@ $_LANG['contactname'] = "Nimi";
 $_LANG['contactsend'] = "Lähetä";
 $_LANG['contactsent'] = "Viesti on lähetetty";
 $_LANG['contactsubject'] = "Aihe";
-$_LANG['contacttitle'] = "Pre-Sales Contact Us";
+$_LANG['contacttitle'] = "Ota yhteyttä myyntiin";
 $_LANG['continueshopping'] = "Jatka ostamista";
 $_LANG['creditcard'] = "Maksa makukortilla";
 $_LANG['creditcard3dsecure'] = "As part of our fraud prevention measures, you will now be asked to perform the Verified by Visa or Mastercard SecureCode verification to complete your payment.<br /><br />Do not click the refresh or back button or this transaction may be interrupted or cancelled.";
@@ -1627,7 +1627,7 @@ $_LANG['readmore'] = "Lue lisää";
 $_LANG['noannouncements'] = "Ei tiedotteita";
 
 $_LANG['kbsearchexplain'] = "Have a question? Start your search here.";
-$_LANG['readyforquestions'] = "We're ready and waiting for your questions";
+$_LANG['readyforquestions'] = "Olemme valmiina vastaamaan kysymyksiisi";
 
 $_LANG['restrictedpage'] = "Sinun tulee kirjautua ensin";
 $_LANG['enteremail'] = "Syötä sähköpostiosoite";
