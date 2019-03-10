@@ -1884,8 +1884,8 @@ $_LANG['actionRequiresAtLeastOneDomainSelected'] = 'Please select at least one d
 $_LANG['clientAreaProductDownloadsAvailable'] = "The following download items are available for your product/service";
 $_LANG['clientAreaProductAddonsAvailable'] = "Lisäosia saatavilla palveluihisi <a href=\"cart.php?gid=addons\">Tutustu & tilaa tästä lisäpalveluita &raquo;</a>";
 $_LANG['clientAreaSecurityTwoFactorAuthRecommendation'] = "Suosittelemme käyttämään kaksivaiheista todennuksen antamaa suojausta palvelussamme.";
-$_LANG['clientAreaSecurityNoSecurityQuestions'] = "Aseta turvakysymykset ja vastauksia suojataksesi käyttäjätiliäsi luvattomilta salasanan nollauksilta ja mahdollistaaksesi meitä vahvistamaan henkilöllisyyden kun haluat tehdä muutoksia tiliisi.";
-$_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "The security question helps protect your account from unauthorized password resets and allows us to verify your identity when requesting account changes.";
+$_LANG['clientAreaSecurityNoSecurityQuestions'] = "Aseta turvakysymys ja vastaus suojataksesi käyttäjätiliäsi luvattomilta salasanan nollauksilta ja mahdollistaaksesi meitä vahvistamaan henkilöllisyyden kun haluat tehdä muutoksia tiliisi.";
+$_LANG['clientAreaSecuritySecurityQuestionOtherError'] = "Turvakysymys auttaa suojamaan käyttäjätiliäsi luvattomilta salasana nollauksilta ja mahdollistaa meitä vahvistamaan henkilöllisyyttä kun haluat tehdä muutoksia tiliisi.";
 
 $_LANG['billingAddress'] = "Laskutusosoite";
 
