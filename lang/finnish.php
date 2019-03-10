@@ -442,7 +442,7 @@ $_LANG['kbsuggestions'] = "Knowledgebase Suggestions";
 $_LANG['kbsuggestionsexplanation'] = "The following articles were found in the knowledgebase which may answer your question. Please review the suggestions before submission.";
 $_LANG['knowledgebasearticles'] = "Artikkelit";
 $_LANG['knowledgebasecategories'] = "Kategoriat";
-$_LANG['nokbcategories'] = "No categories exist";
+$_LANG['nokbcategories'] = "EI kategorioita";
 $_LANG['knowledgebasedescription'] = "Browse our KB for answers to FAQs";
 $_LANG['knowledgebasefavorites'] = "Add to Favourites";
 $_LANG['knowledgebasehelpful'] = "Auttoiko artikkeli teitä?";
@@ -2683,4 +2683,3 @@ $_LANG['domainTldCategory']['ccTLD'] = "Maakoodit";
 $_LANG['domainTldCategory']['Other'] = "Muut";
 
 $_LANG['orderForm']['shortPerYear'] = "/v";
-
