@@ -17,7 +17,7 @@ $_LANG['addfundsminimum'] = "Pienin lisättävä arvo";
 $_LANG['addfundsminimumerror'] = "Pienin lisättävä arvo";
 $_LANG['addmore'] = "Lisää";
 $_LANG['addtocart'] = "Lisää ostoskoriin";
-$_LANG['affiliatesactivate'] = "Activate Affiliate Account";
+$_LANG['affiliatesactivate'] = "Aktivoi Jälleenmyyjätili";
 $_LANG['affiliatesamount'] = "Summa";
 $_LANG['affiliatesbalance'] = "Nykyinen saldo";
 $_LANG['affiliatesbullet1'] = "Receive an initial bonus deposit in your affiliate account of";
@@ -39,7 +39,7 @@ $_LANG['affiliatesregdate'] = "Rekisteröintipäivä";
 $_LANG['affiliatesrequestwithdrawal'] = "Tilitä saldo tilillesi";
 $_LANG['affiliatessignupdate'] = "Rekisteröintipäivä";
 $_LANG['affiliatesstatus'] = "Tila";
-$_LANG['affiliatestitle'] = "Kumppanuusohjelma";
+$_LANG['affiliatestitle'] = "Jälleenmyyntiohjelma";
 $_LANG['affiliatesvisitorsreferred'] = "Number of Visitors Referred";
 $_LANG['affiliateswithdrawalrequestsuccessful'] = "Your request for a withdrawal has been submitted. You will be contacted shortly.";
 $_LANG['affiliateswithdrawn'] = "Maksettava arvon määrä";
@@ -1306,11 +1306,11 @@ $_LANG['jobtitlereqforcompany'] = "(Required if Organization Name is set)";
 
 $_LANG['downloadproductrequired'] = "Downloading this item requires you to have an active instance of the following product/service:";
 
-$_LANG['affiliatesignuptitle'] = "Get Paid for Referring Customers to Us";
-$_LANG['affiliatesignupintro'] = "Activate your affiliate account and start earning money today...";
-$_LANG['affiliatesignupinfo1'] = "We pay commissions for every signup that comes via your custom signup link.";
-$_LANG['affiliatesignupinfo2'] = "We track the visitors you refer to us using cookies, so users you refer don't have to purchase instantly for you to receive your commission.  Cookies last for up to 90 days following the initial visit.";
-$_LANG['affiliatesignupinfo3'] = "If you would like to find out more, please contact us.";
+$_LANG['affiliatesignuptitle'] = "Ansaitse rahaa kun myyt palveluitamme asiakkaillesi";
+$_LANG['affiliatesignupintro'] = "Aktivoi jälleenmyyjä tili ja aloita ansaitseminen jo tänään...";
+$_LANG['affiliatesignupinfo1'] = "Maksamme jokaisesta uudesta tilauksesta palveluumme proviikan";
+$_LANG['affiliatesignupinfo2'] = "Seuraamme Referrer-linkistä tulleita asiakkaita seurantaevästeiden avulla, joten asiakkaan ei tarvitse tilata palveluita heti saadaksesi proviikan tilauksesta. Seurantaeväste on voimassa 90 päivää ensimmäisestä vierailusta sivuillamme.";
+$_LANG['affiliatesignupinfo3'] = "Mikäli sinulla on kysyttävää, olethan yhteydessä asiakaspalveluumme..";
 
 # Version 5.1
 
@@ -1546,7 +1546,7 @@ $_LANG['sidebars']['viewAccount']['changePassword'] = "Vaihda salasana";
 $_LANG['sidebars']['viewAccount']['securitySettings'] = "Suojausasetukset";
 $_LANG['sidebars']['viewAccount']['emailHistory'] = "Sähköpostihistoria";
 
-$_LANG['aboutsecurityquestions'] = "Why security questions?";
+$_LANG['aboutsecurityquestions'] = "Mitkä turvakysymykset ovat?";
 $_LANG['registersecurityquestionblurb'] = "Setting a security question will provide extra security, as all changes to your account require providing the additional information from your question.";
 
 $_LANG['update'] = "Päivitä";
@@ -1751,7 +1751,7 @@ $_LANG['clientHomePanels']['domainsExpiringSoonMsg'] = "Sinulla on :numberOfDoma
 $_LANG['clientHomePanels']['activeProductsServices'] = "Aktiiviset palvelut";
 $_LANG['clientHomePanels']['activeProductsServicesNone'] = "Sinulla ei ole aktiivisia palveluita. <a href=\"cart.php\">Tilaa tästä palvelu</a>.";
 $_LANG['clientHomePanels']['recentNews'] = "Uusimmat tiedotteet";
-$_LANG['clientHomePanels']['affiliateProgram'] = "Kumppanuusohjelma";
+$_LANG['clientHomePanels']['affiliateProgram'] = "Jälleenmyyntiohjelma";
 $_LANG['clientHomePanels']['recentSupportTickets'] = "Viimeisimmät tukipyynnöt";
 $_LANG['clientHomePanels']['recentSupportTicketsNone'] = "Ei tukipyyntöjä. Mikäli tarvitset apua, avaathan  <a href=\"submitticket.php\">tukipyynnön</a>.";
 $_LANG['clientHomePanels']['affiliateSummary'] = "Your current commission balance is :commissionBalance. You only need another :amountUntilWithdrawalLevel before you can withdraw your earnings.";
