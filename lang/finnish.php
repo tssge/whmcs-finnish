@@ -2147,11 +2147,11 @@ $_LANG['navMarketConnectService']['weebly'] = "Website Builder";
 $_LANG['navMarketConnectService']['spamexperts'] = "Sähköpostipalvelut";
 
 $_LANG['store']['emailServices']['title'] = "Sähköpostipalvelut";
-$_LANG['store']['ssl']['title'] = "SSL Sertifikaatit";
-$_LANG['store']['ssl']['dv']['title'] = "Domain Validated SSL";
-$_LANG['store']['ssl']['ov']['title'] = "Organization Validation SSL";
-$_LANG['store']['ssl']['ev']['title'] = "Extended Validation SSL";
-$_LANG['store']['ssl']['wildcard']['title'] = "Wildcard SSL";
+$_LANG['store']['ssl']['title'] = "SSL-varmenteet";
+$_LANG['store']['ssl']['dv']['title'] = "Verkkotunnus varmennettu (DV) SSL-varmenne";
+$_LANG['store']['ssl']['ov']['title'] = "Organisaatio varmennettu (OV) SSL-varmenne";
+$_LANG['store']['ssl']['ev']['title'] = "Laajennetun vahvistuksen (EV) SSL-varmenne";
+$_LANG['store']['ssl']['wildcard']['title'] = "Wildcard SSL-varmenne";
 $_LANG['store']['websiteBuilder']['title'] = "Website Builder";
 $_LANG['store']['configure']['configureProduct'] = "Configure Product";
 
