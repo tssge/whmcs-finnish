@@ -13,7 +13,7 @@ $_LANG['addfundsmaximum'] = "Suurin lisättävä arvo";
 $_LANG['addfundsmaximumbalance'] = "Saldon enimmäismäärä";
 $_LANG['addfundsmaximumbalanceerror'] = "Maksimi arvon määrä on";
 $_LANG['addfundsmaximumerror'] = "Maximum Deposit amount is";
-$_LANG['addfundsminimum'] = "Minimum Deposit";
+$_LANG['addfundsminimum'] = "Pienin lisättävä arvo";
 $_LANG['addfundsminimumerror'] = "Pienin lisättävä arvo";
 $_LANG['addmore'] = "Lisää";
 $_LANG['addtocart'] = "Lisää ostoskoriin";
@@ -25,7 +25,7 @@ $_LANG['affiliatesbullet2'] = "of every payment each customer you refer to us ma
 $_LANG['affiliatescommission'] = "Proviikka";
 $_LANG['affiliatesdescription'] = "Join our affiliate program or view earnings";
 $_LANG['affiliatesdisabled'] = "We do not currently offer an affiliate system to our clients.";
-$_LANG['affiliatesearn'] = "Earn";
+$_LANG['affiliatesearn'] = "Ansaitse";
 $_LANG['affiliatesearningstodate'] = "Total Earnings to Date";
 $_LANG['affiliatesfootertext'] = "When you refer someone to our website with your unique referral ID, a cookie is placed on their computer containing this ID so if they bookmark the site and come back later you will still receive the commission.";
 $_LANG['affiliateshostingpackage'] = "Webhotellipaketti";
@@ -692,7 +692,7 @@ $_LANG['serverstatusnotavailable'] = "Ei saatavilla";
 $_LANG['serverstatusoffline'] = "Offline";
 $_LANG['serverstatusonline'] = "Online";
 $_LANG['serverstatusphpinfo'] = "PHP Info";
-$_LANG['serverstatusserverload'] = "Server Load";
+$_LANG['serverstatusserverload'] = "Palvelimen kuormitus";
 $_LANG['serverstatustitle'] = "Palvelimen tila";
 $_LANG['serverstatusuptime'] = "Käynnissäoloaika";
 $_LANG['serverusername'] = "Käyttäjätunnus";
@@ -1622,7 +1622,7 @@ $_LANG['makepayment'] = "Maksa laskut";
 $_LANG['getsupport'] = "Tee tukipyyntö";
 
 $_LANG['news'] = "Tiedotteet";
-$_LANG['allthelatest'] = "Viimeisimmät ";
+$_LANG['allthelatest'] = "Viimeisimmät tiedotteet ";
 $_LANG['readmore'] = "Lue lisää";
 $_LANG['noannouncements'] = "Ei tiedotteita";
 
@@ -1770,7 +1770,7 @@ $_LANG['bandwidth'] = "Tiedonsiirtokaista";
 $_LANG['registered'] = "Rekisteröity";
 $_LANG['upgrade'] = "Päivitä";
 
-$_LANG['downdoadsdesc'] = "Manuals, programs, and other files";
+$_LANG['downdoadsdesc'] = "Ohjeita, ohjelmia ja muita tiedostoja";
 
 $_LANG['doToday'] = "Mitä haluaisit tehdä?";
 $_LANG['changeDomainNS'] = "Muuttaa verkkotunnuksen nimipalvelimia";
@@ -1983,33 +1983,33 @@ $_LANG['cloudSlider']['feature03Description'] = "Rest easy knowing that we provi
 $_LANG['cloudSlider']['feature03DescriptionTwo'] = "A wide range of security tools are at your disposal, including SSL certificates, firewall configuration, security monitoring services, VPN access, and more.";
 $_LANG['cloudSlider']['selectProductLevel'] = "Select the Perfect Level for You!";
 
-$_LANG['domainChecker.additionalPricingOptions'] = 'Additional Pricing Options For :domain';
+$_LANG['domainChecker.additionalPricingOptions'] = 'Muut hinnat verkkotunnukselle :domain';
 
 $_LANG['orderpaymenttermfree'] = "Ilmainen";
 
-$_LANG['cPanel']['usageStatsBwOverLimit'] = "You have exceeded your bandwidth limit.";
-$_LANG['cPanel']['usageStatsDiskOverLimit'] = "You have exceeded your disk space limit.";
+$_LANG['cPanel']['usageStatsBwOverLimit'] = "Tiedonsiirtoraja on ylittynyt.";
+$_LANG['cPanel']['usageStatsDiskOverLimit'] = "Levytilankäyttö on ylittynyt.";
 $_LANG['insufficientstockmessage'] = "We are currently low on stock on certain items. The cart quantities have been adjusted accordingly.";
 
 $_LANG['only'] = "Vain";
 $_LANG['startingat'] = "Alkaen";
 
-$_LANG['yourdomainplaceholder'] = 'example';
-$_LANG['yourtldplaceholder'] = 'com';
+$_LANG['yourdomainplaceholder'] = 'domain';
+$_LANG['yourtldplaceholder'] = 'fi';
 
 $_LANG['subaccountpermsproductsso'] = "Perform Single Sign-On";
 
 $_LANG['sso']['title'] = "Single Sign-On";
-$_LANG['sso']['summary'] = "Third party applications leverage the Single Sign-On functionality to provide direct access to your billing account without you having to re-authenticate.";
-$_LANG['sso']['disablenotice'] = "You may wish to disable this functionality if you provide access to any of your third party applications to users who you do not wish to be able to access your billing account.";
-$_LANG['sso']['enabled'] = "Single Sign-On is currently permitted for your account.";
-$_LANG['sso']['disabled'] = "Single Sign-On is currently disabled for your account.";
+$_LANG['sso']['summary'] = "Kolmannneosapuolen sovellukset voivat käyttää Single Sign-On toimintoa tarkoamaan pääsyn käyttäjätilillesi ilman erillistä kirjautumista.";
+$_LANG['sso']['disablenotice'] = "Voit halutessasi poistaa tämän toiminnon käytöstä, mikäli annat kolmannenosapuolen sovellukselle pääsyn jolle et halua pääsyä käyttäjätilillesi.";
+$_LANG['sso']['enabled'] = "Single Sign-On on sallittuna käyttäjätililläsi.";
+$_LANG['sso']['disabled'] = "Single Sign-On ei ole sallittuna käyttäjätililläsi.";
 $_LANG['sso']['redirectafterlogin'] = "Sinut uudelleenohjataan kirjautumisen jälkeen";
 
-$_LANG['oauth']['badTwoFactorAuthModule'] = "Bad Two-Factor Auth Module. Please contact support.";
+$_LANG['oauth']['badTwoFactorAuthModule'] = "Virheellinen kaksivaiheinen todennusmoduuli. Olethan yhteydessä asiakaspalveluun.";
 $_LANG['oauth']['permAccessNameAndEmail'] = "Access your name and email address";
 
-$_LANG['errorButTryAgain'] = "An error occurred.  Please try again.";
+$_LANG['errorButTryAgain'] = "Virhe. Ole hyvä ja yritä uudelleen.";
 $_LANG['emailSent'] = 'Sähköposti viesti lähetetty';
 $_LANG['verificationKeyExpired'] = 'Sähköpostin vahvistusavain on vanhentunut. Kirjaudu pyytääksesi uuden avaimen.';
 $_LANG['emailAddressVerified'] = 'Kiitos vahvistaessasi sähköpostiosoitteesi.';
@@ -2146,8 +2146,8 @@ $_LANG['navMarketConnectService']['symantec'] = "SSL Sertifikaatit";
 $_LANG['navMarketConnectService']['weebly'] = "Website Builder";
 $_LANG['navMarketConnectService']['spamexperts'] = "Sähköpostipalvelut";
 
-$_LANG['store']['emailServices']['title'] = "E-mail Services";
-$_LANG['store']['ssl']['title'] = "SSL Certificates";
+$_LANG['store']['emailServices']['title'] = "Sähköpostipalvelut";
+$_LANG['store']['ssl']['title'] = "SSL Sertifikaatit";
 $_LANG['store']['ssl']['dv']['title'] = "Domain Validated SSL";
 $_LANG['store']['ssl']['ov']['title'] = "Organization Validation SSL";
 $_LANG['store']['ssl']['ev']['title'] = "Extended Validation SSL";
@@ -2225,7 +2225,7 @@ $_LANG['remoteAuthn']['linkedToAnotherClient'] = 'This account is already connec
 $_LANG['remoteAuthn']['alreadyLinkedToYou'] = 'This account is already connected to your account with us. Please choose a different account at the third party authentication provider.';
 $_LANG['remoteAuthn']['saveTimeByLinking'] = 'Save time by signing up using an existing account with any of the services below.';
 $_LANG['remoteAuthn']['unlinkDesc'] = 'This permanently unlinks the authorized account.';
-$_LANG['remoteAuthn']['mayHaveMultipleLinks'] = 'Connect your account with any of the services below to simplify your sign-in experience. We only use this information to verify your account and will never post on your behalf.';
+$_LANG['remoteAuthn']['mayHaveMultipleLinks'] = 'Yhdistä käyttäjätunnuksesi muihin palveluihin yksinkertaistaaksesi kirjautumista. Käytämme vain tietoja kirjautumisen yhteydessä emmekä jaa tietojasi ilman lupaasti.';
 $_LANG['remoteAuthn']['titleSignUpVerb'] = 'Rekisteröidy';
 $_LANG['remoteAuthn']['titleOr'] = 'Or';
 $_LANG['remoteAuthn']['titleLinkedAccounts'] = 'Yhdistetty käyttäjätunnus';
@@ -2240,7 +2240,7 @@ $_LANG['remoteAuthn']['signUpWith'] = 'Rekisteröidy :provider';
 
 $_LANG['unlink'] = "Unlink";
 
-$_LANG['invoicePaymentSuccessAwaitingNotify'] = "Thank you for completing the payment process. We are awaiting notification to confirm the payment you just made. We will send you an email confirmation as soon as this has been received.";
+$_LANG['invoicePaymentSuccessAwaitingNotify'] = "Kiitos maksusuorituksestasi. Odotamme maksusuorituksestasi vahvistusta. Saat sähköpostiisi pian maksuvahvistuksen.";
 
 $_LANG['errorPage']['404']['title'] = "Hups!";
 $_LANG['errorPage']['404']['subtitle'] = "Sivua ei löytynyt";
@@ -2354,7 +2354,7 @@ $_LANG['store']['ssl']['competitiveUpgradeQualified'] = "Qualified for Competiti
 
 $_LANG['dismiss'] = "Piilota";
 
-$_LANG['store']['emailServices']['manageService'] = "Kirjaudu SpamExperts Control Panel";
+$_LANG['store']['emailServices']['manageService'] = "Kirjaudu SpamExperts-hallintapaneliin";
 
 $_LANG['noDomain'] = "Ei verkkotunnusta";
 
