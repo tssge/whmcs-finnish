@@ -2142,8 +2142,8 @@ $_LANG['navStore'] = "Kauppa";
 $_LANG['navBrowseProductsServices'] = "Selaa";
 
 $_LANG['navWebsiteSecurity'] = "Verkkosivut & Suojaus";
-$_LANG['navMarketConnectService']['symantec'] = "SSL Varmenteet";
-$_LANG['navMarketConnectService']['weebly'] = "Website Builder";
+$_LANG['navMarketConnectService']['symantec'] = "SSL-varmenteet";
+$_LANG['navMarketConnectService']['weebly'] = "Kotisivukone";
 $_LANG['navMarketConnectService']['spamexperts'] = "Sähköpostipalvelut";
 
 $_LANG['store']['emailServices']['title'] = "Sähköpostipalvelut";
@@ -2152,32 +2152,32 @@ $_LANG['store']['ssl']['dv']['title'] = "Verkkotunnus varmennettu (DV) SSL-varme
 $_LANG['store']['ssl']['ov']['title'] = "Organisaatio varmennettu (OV) SSL-varmenne";
 $_LANG['store']['ssl']['ev']['title'] = "Laajennetun vahvistuksen (EV) SSL-varmenne";
 $_LANG['store']['ssl']['wildcard']['title'] = "Wildcard SSL-varmenne";
-$_LANG['store']['websiteBuilder']['title'] = "Website Builder";
-$_LANG['store']['configure']['configureProduct'] = "Configure Product";
+$_LANG['store']['websiteBuilder']['title'] = "Kotisivukone";
+$_LANG['store']['configure']['configureProduct'] = "Hallitse tuotetta";
 
 $_LANG['store']['ssl']['dv']['tagline'] = "Suojaa sivustosi muutamassa minuutissa!";
-$_LANG['store']['ssl']['dv']['descriptionTitle'] = "What is Standard DV SSL?";
-$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>Domain Validation certificates offer an economical and quick way to implement SSL to your website. Domain Validated certificates verify you own the domain, but do not perform any additional organization level validation.</p><p>Domain Validated certificates are ideal for personal websites, blogs and social media, or any sites that are not transmitting private and confidential information.  A Domain Validated certificate activates the browser padlock and enables the use of https to assure your website visitors and customers that you take their privacy seriously.</p>";
+$_LANG['store']['ssl']['dv']['descriptionTitle'] = "Mikä on Verkkotunnus varmennettu (DV) SSL-varmenne?";
+$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>Verkkotunnus varmennettu (DV) SSL-varmenne tarjoaa kaupallisen ja nopean tavan SSL-salauksen käyttöönoton verkkosivullasi. Verkkotunnuksella varmennettu (DV) SSL-varmenne tarkistaa verkkotunnuksen omistajuuden, mutta ei tee muita tarkistuksia organisaation tasolla.</p><p>Tämä SSL-varmenne on sopiva henkilökohtaisille verkkosivuille, blogeille ja muihin sivustoihin joissa ei käsitellä arkaluonteista tietoa. Tämä varmenne aktivoi sivustolla vihreän lukkokuvakkeen ja ottaa käyttöön HTTPS-salauksen tarjoten vierailijoillesi parempaa tietoturvaa sivustollasi.</p>";
 
-$_LANG['store']['ssl']['ov']['tagline'] = "High assurance SSL shows website visitors your authenticated identity";
-$_LANG['store']['ssl']['ov']['descriptionTitle'] = "What is Organization Validation SSL?";
-$_LANG['store']['ssl']['ov']['descriptionContent'] = "<p>Organization Validated SSL Certificates provide instant identity confirmation and strong SSL protection for your website and business.</p><p>OV SSL is an organization validated certificate that gives your website a step up in credibility over domain validated SSL Certificates. It activates the browser padlock and https, shows your corporate identity, and assures your customers that you take security very seriously. Site visitors can verify that the website is operated by a legitimate company and is not an imposter site.</p>";
+$_LANG['store']['ssl']['ov']['tagline'] = "Korkea tasoinen SSL-varmenne näyttää sivustosi vierailijoille että sivusto on turvallinen ja aito";
+$_LANG['store']['ssl']['ov']['descriptionTitle'] = "Mikä on Organisaatio varmennettu (OV) SSL-varmenne?";
+$_LANG['store']['ssl']['ov']['descriptionContent'] = "<p>Organisaatio varmennettu (OV) tarjoaa sivustollesi ja yrityksellesi vahvan SSL-suojauksen.</p><p>OV SSL-varmenne on organisaatio varmennettu varmenne, joka tarjoaa lisäkerroksen luotettavuuden kanssa verrattuna Verkkotunnus varmennettuun (DV) SSL-varmenteeseen. Tämä aktivoi verkkosivulla vihreän lukkokuvakkeen ja HTTPS sekä näyttää yrityksen tiedot SSL-varmenteessa. Asiakkaasi voivat tarkistaa varmenteesta että sivusto on aito yrityksesi oma sivusto.</p>";
 
 $_LANG['store']['ssl']['ev']['tagline'] = "Activate the green address bar for the highest trust and conversions";
-$_LANG['store']['ssl']['ev']['descriptionTitle'] = "What is Extended Validation SSL?";
+$_LANG['store']['ssl']['ev']['descriptionTitle'] = "Mikä on Extended Validation SSL-varmenne?";
 $_LANG['store']['ssl']['ev']['descriptionContent'] = "<p>EV SSL is an Extended Validation Certificate, the highest class of SSL available today and gives more credibility and trust to your website compared to using an organization or domain validated SSL Certificate.</p><p>Extended Validation SSL activates the green address bar and displays your company or organization name in the browser address bar. These prominent visual security indicators let visitors know that extra steps were taken to confirm the site they're visiting, increasing user trust in your website and its credibility – this is why most large companies and organizations choose EV certificates.</p>";
 
-$_LANG['store']['ssl']['wildcard']['tagline'] = "Secure unlimited subdomains on a single certificate.";
-$_LANG['store']['ssl']['wildcard']['descriptionTitle'] = "What is a Wildcard SSL Certificate?";
+$_LANG['store']['ssl']['wildcard']['tagline'] = "Suojaa kaikki aliverkkotunnukset yhdellä SSL-varmenteella.";
+$_LANG['store']['ssl']['wildcard']['descriptionTitle'] = "Mikä on Wildcard SSL-varmenne?";
 $_LANG['store']['ssl']['wildcard']['descriptionContent'] = "<p>Wildcard SSL allows you to secure an unlimited number of subdomains on a single certificate. It’s a great solution for anyone who hosts or manages multiple sites or pages that exist on the same domain. The one-time cost of the certificate covers you for additional subdomains you may add in the future.</p><p>Unlike a standard SSL Certificate that is issued to a single Fully Qualified Domain Name only, e.g. www.yourdomain.com, which means it can only be used to secure the exact domain to which it has been issued, a Wildcard SSL Certificate is issued to *.yourdomain.com, where the asterisk represents all possible subdomains.</p><p>Wildcard SSL is an option available for DV and OV SSL Certificates.</p>";
 
 $_LANG['store']['websiteBuilder']['headline'] = "Building a Website Has Never Been Easier";
 $_LANG['store']['websiteBuilder']['tagline'] = "Create the perfect site with powerful drag and drop tools";
 $_LANG['store']['websiteBuilder']['introduction'] = "Weebly’s drag and drop website builder makes it easy to create a powerful, professional website without any technical skills. Over 40 million entrepreneurs and small businesses have already used Weebly to build their online presence with a website, blog or store.";
 
-$_LANG['store']['emailServices']['headline'] = "Email Security, Built for You";
-$_LANG['store']['emailServices']['tagline'] = "Take back control of your inbox";
-$_LANG['store']['emailServices']['blockSpamHeadline'] = "Block nearly 100% of viruses, malware and spam before they ever reach your inbox";
+$_LANG['store']['emailServices']['headline'] = "Sähköpostin suojaus, sinua varten!";
+$_LANG['store']['emailServices']['tagline'] = "Ota sähköpostilaatikkoosi hallintaasi";
+$_LANG['store']['emailServices']['blockSpamHeadline'] = "Suodattaa lähes 100% viruksista, haittaohjelmista and roskapostista ennen kuin ehtivät sähköpostiisi";
 
 $_LANG['pricingCycleShort']['monthly'] = "kk";
 $_LANG['pricingCycleShort']['quarterly'] = "3kk";
@@ -2340,8 +2340,8 @@ $_LANG['domainRenewal']['maximumAdvanceRenewal'] = "Maximum Advance Renewal is :
 
 $_LANG['navMarketConnectService']['sitelock'] = "Verkkosivun suojaus";
 $_LANG['store']['sitelock']['title'] = "SiteLock Verkkosivun suojaus";
-$_LANG['store']['sitelock']['tagline'] = "Automatically scan your website for malware and protect online reputation";
-$_LANG['store']['sitelock']['manageService'] = "Manage your SiteLock Service";
+$_LANG['store']['sitelock']['tagline'] = "Automaattisesti tarkistaa verkkosivustoasi haittaohjelman varalta ja suojaa mainettasi verkossa";
+$_LANG['store']['sitelock']['manageService'] = "Hallitse SiteLock-palvelua";
 $_LANG['store']['sitelock']['cartShortDescription'] = "SiteLock provides a range of features designed to protect both your website and your business’ reputation.";
 
 $_LANG['learnmore'] = "Lue lisää";
@@ -2579,7 +2579,7 @@ $_LANG['fraud']['countryMismatch'] = "The country of your IP address did not mat
 $_LANG['fraud']['highRiskCountry'] = "Unfortunately, we are unable to accept your order as there has been a lot of fraudulent activity from your country. If you want to arrange an alternative means of payment, please contact us.";
 $_LANG['fraud']['anonymousProxy'] = "We do not allow orders to be placed using an Anonymous Proxy";
 
-$_LANG['navMarketConnectService']['codeguard'] = "Website Backup";
+$_LANG['navMarketConnectService']['codeguard'] = "Verkkosivuston varmuuskopiointi";
 $_LANG['store']['codeguard']['cartTitle'] = "CodeGuard Website Backup";
 $_LANG['store']['codeguard']['cartShortDescription'] = "Protect your website against data loss and attacks with daily automated backups and one-click automatic restore.";
 $_LANG['store']['codeGuard']['title'] = "CodeGuard Backup";
