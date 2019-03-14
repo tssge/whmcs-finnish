@@ -2142,7 +2142,7 @@ $_LANG['navStore'] = "Kauppa";
 $_LANG['navBrowseProductsServices'] = "Selaa";
 
 $_LANG['navWebsiteSecurity'] = "Verkkosivut & Suojaus";
-$_LANG['navMarketConnectService']['symantec'] = "SSL Sertifikaatit";
+$_LANG['navMarketConnectService']['symantec'] = "SSL Varmenteet";
 $_LANG['navMarketConnectService']['weebly'] = "Website Builder";
 $_LANG['navMarketConnectService']['spamexperts'] = "Sähköpostipalvelut";
 
@@ -2155,7 +2155,7 @@ $_LANG['store']['ssl']['wildcard']['title'] = "Wildcard SSL-varmenne";
 $_LANG['store']['websiteBuilder']['title'] = "Website Builder";
 $_LANG['store']['configure']['configureProduct'] = "Configure Product";
 
-$_LANG['store']['ssl']['dv']['tagline'] = "Secure your website in just a few minutes!";
+$_LANG['store']['ssl']['dv']['tagline'] = "Suojaa sivustosi muutamassa minuutissa!";
 $_LANG['store']['ssl']['dv']['descriptionTitle'] = "What is Standard DV SSL?";
 $_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>Domain Validation certificates offer an economical and quick way to implement SSL to your website. Domain Validated certificates verify you own the domain, but do not perform any additional organization level validation.</p><p>Domain Validated certificates are ideal for personal websites, blogs and social media, or any sites that are not transmitting private and confidential information.  A Domain Validated certificate activates the browser padlock and enables the use of https to assure your website visitors and customers that you take their privacy seriously.</p>";
 
@@ -2344,7 +2344,7 @@ $_LANG['store']['sitelock']['tagline'] = "Automatically scan your website for ma
 $_LANG['store']['sitelock']['manageService'] = "Manage your SiteLock Service";
 $_LANG['store']['sitelock']['cartShortDescription'] = "SiteLock provides a range of features designed to protect both your website and your business’ reputation.";
 
-$_LANG['learnmore'] = "Näytä lisää";
+$_LANG['learnmore'] = "Lue lisää";
 $_LANG['category'] = "Kategoria";
 $_LANG['changeCurrency'] = "Vaihda valuuttaa";
 
@@ -2433,7 +2433,7 @@ $_LANG['maxmind']['manualReview'] = "Your order has been held for manual review.
 
 $_LANG['nodomain'] = "Verkkotunnusta ei ole määritetty";
 
-$_LANG['store']['ssl']['cartTitle'] = "Suojaa sivustosi SSL:lläL";
+$_LANG['store']['ssl']['cartTitle'] = "Suojaa sivustosi SSL:llä";
 $_LANG['store']['ssl']['cartShortDescription'] = "Add SSL to your web hosting to give visitors confidence that your website is safe and secure and help build trust.";
 
 $_LANG['store']['weebly']['cartTitle'] = "Powerful Website Builder";
@@ -2444,8 +2444,8 @@ $_LANG['store']['spamexperts']['cartShortDescription'] = "Add professional email
 
 $_LANG['store']['sitelock']['cartTitle'] = "SiteLock Website Security";
 
-$_LANG['store']['ssl']['promo']['sidebar']['title'] = "Add SSL to your website";
-$_LANG['store']['ssl']['promo']['sidebar']['body'] = "Activate the padlock icon and protect user privacy";
+$_LANG['store']['ssl']['promo']['sidebar']['title'] = "Lisää SSL-salaus sivustollesi";
+$_LANG['store']['ssl']['promo']['sidebar']['body'] = "Aktivoi vihreä lukkokuvake sivustollasi ja suojaa vierailijoitesi yksityisyyttä";
 
 $_LANG['store']['weebly']['promo']['sidebar']['title'] = "Powerful Site Builder";
 $_LANG['store']['weebly']['promo']['sidebar']['body'] = "Create a stunning website faster than ever with Weebly";
