@@ -1970,7 +1970,7 @@ $_LANG['orderForm']['totals'] = "Yhteensä";
 $_LANG['orderForm']['includedWithPlans'] = "Sisältyy jokaiseen palveluun";
 $_LANG['orderForm']['whatIsIncluded'] = "What is Included?";
 $_LANG['orderForm']['errorNoProductGroup'] = "Could not load any product groups.";
-$_LANG['orderForm']['errorNoProducts'] = "Tuoteryhmässä ei ole tuotteutia";
+$_LANG['orderForm']['errorNoProducts'] = "Tuoteryhmässä ei ole tuotetta";
 
 $_LANG['cloudSlider']['feature01Title'] = "Maximum Server Uptime";
 $_LANG['cloudSlider']['feature01Description'] = "Server uptime is critical for all businesses - consider it the heart beat of hosting your business. File and databases servers, email and web servers are an indispensable part of most business processes, and downtimes have direct negative effects on productivity, sales, employee and customer satisfaction. That's why ensuring the maximum server uptime is so important to us - we want to make sure your business processes are running healthy so your customers are happy.";
