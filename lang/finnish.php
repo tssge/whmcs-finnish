@@ -7,7 +7,7 @@ $_LANG['isocode'] = "fi";
 
 $_LANG['accountinfo'] = "Asiakastiedot";
 $_LANG['accountstats'] = "Käyttäjätilastot";
-$_LANG['addfunds'] = "Lisää saldoa";
+$_LANG['addfunds'] = "Ennakkomaksutili";
 $_LANG['addfundsamount'] = "Arvon määrän lisäys";
 $_LANG['addfundsmaximum'] = "Suurin lisättävä arvo";
 $_LANG['addfundsmaximumbalance'] = "Saldon enimmäismäärä";
@@ -93,7 +93,7 @@ $_LANG['clickheretologin'] = "Klikkaa tästä kirjautuaksesi";
 $_LANG['clientareaaccountaddons'] = "Lisäpalvelut";
 $_LANG['clientareaactive'] = "Aktiivinen";
 $_LANG['clientareaaddfundsdisabled'] = "We do not allow depositing funds in advance with us at the current time.";
-$_LANG['clientareaaddfundsnotallowed'] = "You must have at least one active order before you can add funds so you cannot proceed at the current time!";
+$_LANG['clientareaaddfundsnotallowed'] = "Sinulla tulee olla aktiivinen palvelu ennen kuin voit lisätä saldoa ennakkomaksutilille.";
 $_LANG['clientareaaddon'] = "Lisäpalvelu";
 $_LANG['clientareaaddonorderconfirmation'] = "Thank You. Your order for the addon shown below has been placed. Please choose your method of payment from below.";
 $_LANG['clientareaaddonpricing'] = "Hinnasto";
@@ -2015,7 +2015,7 @@ $_LANG['verificationKeyExpired'] = 'Sähköpostin vahvistusavain on vanhentunut.
 $_LANG['emailAddressVerified'] = 'Kiitos vahvistaessasi sähköpostiosoitteesi.';
 $_LANG['emailKeyExpired'] = 'Tämä sähköpostin vahvistusavain on vanhentunut. Kirjaudu pyytääksesi uuden avaimen';
 $_LANG['verifyEmailAddress'] = 'Vahvista käyttäjätunnuksesi vahvisvistamalla sähköpostiosoitteesi';
-$_LANG['resendEmail'] = 'Uudelleenlähetä sähköpostivahvistusviesti';
+$_LANG['resendEmail'] = 'Lähetä uudelleen';
 
 // Markdown Editor Help
 $_LANG['markdown']['title']= "Markdown-opas";
