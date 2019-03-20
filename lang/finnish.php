@@ -410,7 +410,7 @@ $_LANG['invoicescollections'] = "Collections";
 $_LANG['invoicescredit'] = "Credit";
 $_LANG['invoicesdatecreated'] = "Laskun päiväys";
 $_LANG['invoicesdatedue'] = "Eräpäivä";
-$_LANG['invoicesdescription'] = "Selite";
+$_LANG['invoicesdescription'] = "Kuvaus";
 $_LANG['invoicesdownload'] = "Lataa";
 $_LANG['invoiceserror'] = "An Error Occurred. Please Try Again.";
 $_LANG['invoicesinvoicedto'] = "Maksaja";
@@ -542,7 +542,7 @@ $_LANG['orderconfigure'] = "Tilauksen asetukset";
 $_LANG['orderconfirmation'] = "Tilauksen vahvistus";
 $_LANG['orderconfirmorder'] = "Vahvista tilaus";
 $_LANG['ordercontinuebutton'] = "Klikkaa tästä jatkaaksesi >>";
-$_LANG['orderdesc'] = "Description";
+$_LANG['orderdesc'] = "Kuvaus";
 $_LANG['orderdescription'] = "Tee uusi tilaus";
 $_LANG['orderdiscount'] = "Alennus";
 $_LANG['orderdomain'] = "Verkkotunnus";
@@ -2019,7 +2019,7 @@ $_LANG['resendEmail'] = 'Lähetä uudelleen';
 
 // Markdown Editor Help
 $_LANG['markdown']['title']= "Markdown-opas";
-$_LANG['markdown']['emphasis']= "Emphasis";
+$_LANG['markdown']['emphasis']= "Painotus";
 $_LANG['markdown']['bold']= "lihavoitu";
 $_LANG['markdown']['italics']= "kursivointi";
 $_LANG['markdown']['strikeThrough']= "yliviivaus";
