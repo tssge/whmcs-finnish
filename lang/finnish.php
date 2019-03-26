@@ -24,9 +24,9 @@ $_LANG['affiliatesbullet1'] = "Receive an initial bonus deposit in your affiliat
 $_LANG['affiliatesbullet2'] = "of every payment each customer you refer to us makes for the entire duration of their hosting account";
 $_LANG['affiliatescommission'] = "Proviikka";
 $_LANG['affiliatesdescription'] = "Join our affiliate program or view earnings";
-$_LANG['affiliatesdisabled'] = "We do not currently offer an affiliate system to our clients.";
+$_LANG['affiliatesdisabled'] = "Emme tällä hetkellä tarjoa jälleenmyyjäohjelmaa asiakkailemme.";
 $_LANG['affiliatesearn'] = "Ansaitse";
-$_LANG['affiliatesearningstodate'] = "Total Earnings to Date";
+$_LANG['affiliatesearningstodate'] = "Ansaittu summa";
 $_LANG['affiliatesfootertext'] = "When you refer someone to our website with your unique referral ID, a cookie is placed on their computer containing this ID so if they bookmark the site and come back later you will still receive the commission.";
 $_LANG['affiliateshostingpackage'] = "Webhotellipaketti";
 $_LANG['affiliatesintrotext'] = "Activate your affiliate account today to:";
@@ -40,8 +40,8 @@ $_LANG['affiliatesrequestwithdrawal'] = "Tilitä saldo tilillesi";
 $_LANG['affiliatessignupdate'] = "Rekisteröintipäivä";
 $_LANG['affiliatesstatus'] = "Tila";
 $_LANG['affiliatestitle'] = "Jälleenmyyntiohjelma";
-$_LANG['affiliatesvisitorsreferred'] = "Number of Visitors Referred";
-$_LANG['affiliateswithdrawalrequestsuccessful'] = "Your request for a withdrawal has been submitted. You will be contacted shortly.";
+$_LANG['affiliatesvisitorsreferred'] = "Vierailijoiden määrä";
+$_LANG['affiliateswithdrawalrequestsuccessful'] = "Nostopyyntösi on lähetetty. Otamme pian teihin yhteyttä.";
 $_LANG['affiliateswithdrawn'] = "Maksettava arvon määrä";
 $_LANG['all'] = "Kaikki";
 $_LANG['alreadyregistered'] = "Onko sinulla jo käyttäjätili?";
@@ -842,10 +842,10 @@ $_LANG['overagescharges'] = "Overage Charge";
 $_LANG['overagestotaldiskusage'] = "Total Disk Usage";
 $_LANG['overagestotalbwusage'] = "Total Bandwidth Usage";
 
-$_LANG['affiliatescommissionspending'] = "Commissions Pending Maturation";
-$_LANG['affiliatescommissionsavailable'] = "Available Commissions Balance";
+$_LANG['affiliatescommissionspending'] = "Odottava maksun määrä";
+$_LANG['affiliatescommissionsavailable'] = "Palkkiota kiertynyt";
 $_LANG['affiliatessignups'] = "Rekisteröityneiden määrä";
-$_LANG['affiliatesconversionrate'] = "Conversion Rate";
+$_LANG['affiliatesconversionrate'] = "Muuntokurssi";
 
 $_LANG['configoptionqtyminmax'] = "%s has a minimum requirement of %s and maximum of %s";
 
@@ -1306,11 +1306,11 @@ $_LANG['jobtitlereqforcompany'] = "(Required if Organization Name is set)";
 
 $_LANG['downloadproductrequired'] = "Downloading this item requires you to have an active instance of the following product/service:";
 
-$_LANG['affiliatesignuptitle'] = "Ansaitse rahaa kun myyt palveluitamme asiakkaillesi";
+$_LANG['affiliatesignuptitle'] = "Ansaitse rahaa kun suosittelet palveluitamme";
 $_LANG['affiliatesignupintro'] = "Aktivoi jälleenmyyjä tili ja aloita ansaitseminen jo tänään...";
 $_LANG['affiliatesignupinfo1'] = "Maksamme jokaisesta uudesta tilauksesta palveluumme proviikan";
 $_LANG['affiliatesignupinfo2'] = "Seuraamme Referrer-linkistä tulleita asiakkaita seurantaevästeiden avulla, joten asiakkaan ei tarvitse tilata palveluita heti saadaksesi proviikan tilauksesta. Seurantaeväste on voimassa 90 päivää ensimmäisestä vierailusta sivuillamme.";
-$_LANG['affiliatesignupinfo3'] = "Mikäli sinulla on kysyttävää, olethan yhteydessä asiakaspalveluumme..";
+$_LANG['affiliatesignupinfo3'] = "Mikäli sinulla on kysyttävää jälleenmyyjäohjelmastamme, olethan yhteydessä asiakaspalveluumme.";
 
 # Version 5.1
 
